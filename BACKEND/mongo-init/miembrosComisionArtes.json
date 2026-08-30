@@ -1,0 +1,80 @@
+[
+  {
+    "_id": "6a1f57e5a4af21df67525b48",
+    "rol": "Representantes del CAAHyA",
+    "nombre": "Mtra. María Antonieta Rodríguez Rivera",
+    "correo": "antonieta.rodriguez@enallt.unam.mx"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b49",
+    "rol": "Representantes del CAAHyA",
+    "nombre": "Dr. José Rafael Mondragón Sánchez",
+    "correo": "mondragon.rafael@gmail.com"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b4a",
+    "rol": "Centro de Investigaciones de Diseño Industrial",
+    "nombre": "Mtro. José Héctor López Aguado Aguilar",
+    "correo": "hector.lopezaguado@cidi.unam.mx"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b4b",
+    "rol": "Facultad de Artes y Diseño",
+    "nombre": "Mtra. Raquel Eugenia García Cruz",
+    "correo": "rgarcia@ctac.fad.unam.mx"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b4c",
+    "rol": "Escuela Nacional de Artes Cinematográficas",
+    "nombre": "Lic. María de los Ángeles Castro Gurría",
+    "correo": "direccion@enac.unam.mx; sg@enac.unam.mx"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b4d",
+    "rol": "ENAC",
+    "nombre": "Mtra. Aurora Lourdes Ojeda Coronado",
+    "correo": "aojeda@enac.unam.mx"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b4e",
+    "rol": "Centro Universitario de Teatro",
+    "nombre": "Mtro. David Martín Hevia Garibay",
+    "correo": "davidhevia64@gmail.com"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b4f",
+    "rol": "Instituto de Investigaciones Estéticas",
+    "nombre": "Dr. Daniel Enrique Montero Fayad",
+    "correo": "danielmonterofayad@gmail.com"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b50",
+    "rol": "Facultad de Música",
+    "nombre": "Mtra. María Teresa Navarro Agraz",
+    "correo": "direccion@fam.unam.mx"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b51",
+    "rol": "ENES Morelia",
+    "nombre": "Dra. Roxana Cervantes Barajas",
+    "correo": "rcervantes@enesmorelia.unam.mx"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b52",
+    "rol": "Invitados CAAHyA",
+    "nombre": "Dr. Pedro Ortiz Antoranz",
+    "correo": "ortizantoranzp@gmail.com"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b53",
+    "rol": "Invitados CAAHyA",
+    "nombre": "Dra. Claudia de la Garza Hernández",
+    "correo": "museounamhoy@gmail.com"
+  },
+  {
+    "_id": "6a1f57e5a4af21df67525b54",
+    "rol": "Invitados CAAHyA",
+    "nombre": "Dr. Pierre Valls",
+    "correo": "pierrevallsestudio@gmail.com"
+  }
+]

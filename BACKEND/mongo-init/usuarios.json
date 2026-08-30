@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "6a1b31adc8937e779216684c",
+    "username": "Secretaria Auxiliar 1",
+    "password": "$2b$10$RgMLqogSqOTGpeiNWrlnfuROyJmgf85icyfxr00Rn.mbL2RImyToO",
+    "role": "SECRETARIA_AUXILIAR_1",
+    "createdAt": "2026-05-30T18:51:25.856Z",
+    "updatedAt": "2026-05-30T18:51:25.856Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a1b31adc8937e779216684d",
+    "username": "Secretaria Auxiliar 2",
+    "password": "$2b$10$sCqlEWL/5IMXCyPZwcSFVuAS9DxENy/qRYnIevXG8m9H4stbtR51C",
+    "role": "SECRETARIA_AUXILIAR_2",
+    "createdAt": "2026-05-30T18:51:25.856Z",
+    "updatedAt": "2026-05-30T18:51:25.856Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a1b31adc8937e779216684b",
+    "username": "Secretaria del Consejo",
+    "password": "$2b$10$H.u1CntilO58ofKA0WJ31ORRg/QhqzXlnKW.LxZ23y1cGW1xdlVKi",
+    "role": "SECRETARIA_CONSEJO",
+    "createdAt": "2026-05-30T18:51:25.855Z",
+    "updatedAt": "2026-05-30T18:51:25.855Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a1b31adc8937e779216684f",
+    "username": "Coordinadora",
+    "password": "$2b$10$6aCOtY.bAUHVizBCuHGfL.iOZUexue3WFTZ3MZjny91nXfPQ6wx5K",
+    "role": "COORDINADORA",
+    "createdAt": "2026-05-30T18:51:25.856Z",
+    "updatedAt": "2026-05-30T18:51:25.856Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a1b31adc8937e779216684e",
+    "username": "Asistente Ejecutiva",
+    "password": "$2b$10$k8h.7QZWSrhiqG0s3cMm2.vPPlo4Lb6e3ohcRAtMM2Uih1PdeEYrW",
+    "role": "ASISTENTE_EJECUTIVA",
+    "createdAt": "2026-05-30T18:51:25.856Z",
+    "updatedAt": "2026-05-30T18:51:25.856Z",
+    "__v": 0
+  }
+]

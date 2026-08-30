@@ -1,0 +1,781 @@
+[
+  {
+    "_id": "6a7e10835056f44c74b3e1be",
+    "nombre": "Dra. Mónica Cejudo Collera",
+    "entidad": "Director de la Facultad de Arquitectura",
+    "telefono1": "20214",
+    "telefono2": "20215",
+    "correo1": "direccion@fa.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1bf",
+    "nombre": "Dr. José Gerardo Guízar Bermúdez",
+    "entidad": "Profesor de la Facultad de Arquitectura",
+    "telefono1": "5554169649",
+    "correo1": "g.guizar@fa.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1c0",
+    "nombre": "Arq. Elodia Gómez Maqueo Rojas",
+    "entidad": "Profesora de la Facultad de Arquitectura",
+    "telefono": null,
+    "correo1": "elodiagmr@gmail.com",
+    "comentarios": "NO ENLAZA"
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1c1",
+    "nombre": "Joel Iván Estévez Moreno",
+    "entidad": "Alumno de la Facultad de Arquitectura",
+    "telefono1": "5556567182",
+    "telefono2": "5536985892",
+    "correo1": "318266729@fa.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1c2",
+    "nombre": "Rebeca Paola Cardoso Rodríguez",
+    "entidad": "Alumna de la Facultad de Arquitectura",
+    "telefono1": "5555323117",
+    "telefono2": "5532888776",
+    "correo1": "319058114@fa.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1c3",
+    "nombre": "Dra. Mary Frances Rodríguez Van Gort",
+    "entidad": "Directora de la Facultad de Filosofía y Letras",
+    "telefono1": "5556162415",
+    "telefono2": "5556160047",
+    "correo1": "direccion@filos.unam.mx",
+    "correo2": "gonzalezvalerio@filos.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1c4",
+    "nombre": "Mtra. Julia Edith Constantino Reyes",
+    "entidad": "Profesora de la Facultad de Filosofía y Letras",
+    "telefono1": "5522454813",
+    "correo1": "juliaconstantino@filos.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1c5",
+    "nombre": "José Luis Segura Morales",
+    "entidad": "Alumno de la Facultad de Filosofía y Letras",
+    "telefono1": "5554409812",
+    "telefono2": "5633281586",
+    "correo1": "luissegmor@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1c6",
+    "nombre": "Elsa María Dueñas Tapia",
+    "entidad": "Alumna de la Facultad de Filosofía y Letra",
+    "telefono1": "5553012101",
+    "telefono2": "5610791542",
+    "correo1": "elsa_dumar8@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1c7",
+    "nombre": "Mtra. Nora del Consuelo Goris Mayans",
+    "entidad": "Profesora de la Facultad de Filosofía y Letras",
+    "telefono1": "31643",
+    "correo1": "nora.goris@ffyl.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1c8",
+    "nombre": "Dr. David Fragoso Franco",
+    "entidad": "Profesor de la Facultad de Filosofía y Letras",
+    "telefono1": "55 68 38 11 29 NÚMERO NO EXISTE",
+    "correo1": "davidfragosof@gmail.com",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1c9",
+    "nombre": "Dr. José Luis Caballero Facio",
+    "entidad": "Profesor de la Facultad de Filosofía y Letras",
+    "telefono1": "55 32 25 08 64 NÚMERO A CAMBIADO",
+    "correo1": "joseluiscaballero@filos.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1ca",
+    "nombre": "Erin Fernanda Páez Vázquez",
+    "entidad": "Alumna de la Facultad de Filosofía y Letras",
+    "telefono1": "5511307352",
+    "correo1": "erineandrea@gmail.com",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1cb",
+    "nombre": "Karla Camila Mendoza Cuéllar",
+    "entidad": "Alumna de la Facultad de Filosofía y Letras",
+    "telefono1": "5546235079",
+    "telefono2": "5514804564",
+    "correo1": "camilamendoza0310@gmail.com",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1cc",
+    "nombre": "Dra. Araceli Romo Cabrera",
+    "entidad": "Secretaria Académica de la Facultad de Química",
+    "telefono1": "30829",
+    "correo1": "araceli.romo@quimica.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1cd",
+    "nombre": "Dra. Mónica Morales Barrera",
+    "entidad": "Profesora de la Facultad de Química",
+    "telefono1": "55 39 98 25 80",
+    "correo1": "monica.morales@quimica.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1ce",
+    "nombre": "Rut Rodríguez Pérez",
+    "entidad": "Alumna de la Facultad de Química",
+    "telefono1": "5557945495",
+    "telefono2": "5517951972",
+    "correo1": "rut_rodriguez@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1cf",
+    "nombre": "Diego Sánchez Rojas Sollano",
+    "entidad": "Alumno de la Facultad de Química",
+    "telefono1": "5547699301",
+    "correo1": "diego_sanchez@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1d0",
+    "nombre": "Dr. David Quintanar Guerrero",
+    "entidad": "Secretario de Apoyo Académico de la FES Cuautitlán",
+    "telefono1": "31961",
+    "correo1": "quintana@cuautitlan.unam.mx",
+    "correo2": "gloria.castro@cuautitlan.unam.mx",
+    "correo3": "coordinacion.gestion@cuautitlan.unam.mx",
+    "correo4": "jefatura.dcv@cuautitlan.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1d1",
+    "nombre": "Dra. Huberta Márquez Villeda",
+    "entidad": "Profesora de la FES Cuautitlán",
+    "telefono1": "5536673239",
+    "correo1": "hubertamarquez@yahoo.com.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1d2",
+    "nombre": "Dr. Sergio Omar Terán",
+    "entidad": "Alumno de la FES Cuautitlán",
+    "correo1": "sergioteran@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1d3",
+    "nombre": "Ernesto Albarrán Pulido",
+    "entidad": "Alumno de la FES Cuautitlán",
+    "telefono1": "5568635404",
+    "correo1": "ernestoalbarran@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1d4",
+    "nombre": "Dr. Mauricio de Jesús Juárez Servín",
+    "entidad": "Director de la Facultad de Artes y Diseño",
+    "telefono1": "5554894923",
+    "correo1": "direccion@fad.unam.mx",
+    "correo2": "mjuarez@fad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1d5",
+    "nombre": "Lic. Manuel Gerardo Alonso Ulloa",
+    "entidad": "Profesor de la Facultad de Artes y Diseño",
+    "telefono1": "5554894920",
+    "telefono2": "5518004382",
+    "correo1": "mgalonso@fad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1d6",
+    "nombre": "Mtra. María del Carmen Mendoza Chávez",
+    "entidad": "Profesora de la Facultad de Artes y Diseño",
+    "telefono1": "5555414541",
+    "telefono2": "5513399513",
+    "correo1": "mendoza_chavez@fad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1d7",
+    "nombre": "Ximena Alejandra Meléndez Rebollo",
+    "entidad": "Alumna de la Facultad de Artes y Diseño",
+    "telefono1": "5577061448",
+    "telefono2": "5573893856",
+    "correo1": "ximenamelendez@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1d8",
+    "nombre": "Jazmín Alejandra Sánchez García",
+    "entidad": "Alumna de la Facultad de Artes y Diseño",
+    "telefono1": "5530223155",
+    "telefono2": "5550550049",
+    "correo1": "jazmin_sanchez@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1d9",
+    "nombre": "Mtra. María Teresa Navarro Agraz",
+    "entidad": "Secretaria de Apoyo Académico de la Escuela Nacional de Lenguas, Lingüística y Traducción",
+    "telefono1": "5556883308",
+    "correo1": "mnavarro@enallt.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1da",
+    "nombre": "Mtro. Ignacio Daniel Mariscal Martínez",
+    "entidad": "Profesor de la Escuela Nacional de Lenguas, Lingüística y Traducción",
+    "telefono1": "5554096219",
+    "correo1": "imariscal@enallt.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1db",
+    "nombre": "Mtra. Viktoria Horti Pasztor",
+    "entidad": "Profesora de la Escuela Nacional de Lenguas, Lingüística y Traducción",
+    "telefono1": "5554051941",
+    "correo1": "viktoria.horti@enallt.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1dc",
+    "nombre": "Jorge Manuel Neri Torres",
+    "entidad": "Alumno de la Escuela Nacional de Lenguas, Lingüística y Traducción",
+    "telefono1": "5561277603",
+    "correo1": "jorgenexs@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1dd",
+    "nombre": "Yelena Castillo Guerrero",
+    "entidad": "Alumna de la Escuela Nacional de Lenguas, Lingüística y Traducción",
+    "telefono1": "5545248912",
+    "correo1": "yelenacastillo@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1de",
+    "nombre": "Dra. Zoraida García Castillo",
+    "entidad": "Directora de la Escuela Nacional de Ciencias Forenses",
+    "telefono1": "5556232300",
+    "correo1": "rossym@enacif.unam.mx",
+    "correo2": "direccion@enacif.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1df",
+    "nombre": "Dr. Arturo Mendoza Ramos",
+    "entidad": "Profesor de la Escuela Nacional de Ciencias Forenses",
+    "telefono1": "20682",
+    "correo1": "arturo.mendoza@enacif.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1e0",
+    "nombre": "Dra. Eréndira Dolores Camarena Ortiz",
+    "entidad": "Profesora de la Escuela Nacional de Ciencias Forenses",
+    "telefono1": "5540566840",
+    "correo1": "erendira.camarena@enacif.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1e1",
+    "nombre": "Dr. José Martín Gasca García",
+    "entidad": "Profesor de la Escuela Nacional de Ciencias Forenses",
+    "telefono1": "5543819492",
+    "correo1": "jose.gasca@enacif.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1e2",
+    "nombre": "Natalia Alonso Madrigal",
+    "entidad": "Alumna de la Escuela Nacional de Ciencias Forenses",
+    "correo1": "natalia.alonso@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1e3",
+    "nombre": "Tábatha Berlanga Sandoval",
+    "entidad": "Alumna de la Escuela Nacional de Ciencias Forenses",
+    "correo1": "tabatha.berlanga@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1e4",
+    "nombre": "Lic. Ma. de los Ángeles Gpe. Castro Gurría",
+    "entidad": "Secretaria de Apoyo Académico de la Facultad de Derecho",
+    "telefono1": "5556233801",
+    "correo1": "angelescastro@derecho.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1e5",
+    "nombre": "Mtra. Aurora Lourdes Ojeda Coronado",
+    "entidad": "Profesora de la Facultad de Derecho",
+    "telefono1": "5574915043",
+    "correo1": "aurora.ojeda@derecho.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1e6",
+    "nombre": "Mtro. Jorge Arturo García González",
+    "entidad": "Profesor de la Facultad de Derecho",
+    "telefono1": "5514742369",
+    "correo1": "jorgearturo@derecho.unam.mx",
+    "correo2": "porriadonai@yahoo.com.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1e7",
+    "nombre": "Frida Paola Gonzalez Martinez",
+    "entidad": "Alumna de la Facultad de Derecho",
+    "correo1": "frida.gonzalez@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1e8",
+    "nombre": "Dr. Enrique Arturo Cantoral Uriza",
+    "entidad": "Secretario General de la Facultad de Medicina",
+    "telefono1": "5556234421",
+    "correo1": "eacantoralu@facmed.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1e9",
+    "nombre": "Mtro. Salvador Andrade Ortiz",
+    "entidad": "Profesor de la Facultad de Medicina",
+    "telefono1": "43302",
+    "correo1": "salvador.andrade@facmed.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1ea",
+    "nombre": "Mtro. Leonardo Arturo Rivas Rivas",
+    "entidad": "Profesor de la ENES Unidad León",
+    "telefono1": "4777879820",
+    "correo1": "leonardorivas@enes.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1eb",
+    "nombre": "Dra. Arlene Iskra García Vázquez",
+    "entidad": "Profesora de la ENES Unidad León",
+    "telefono1": "4771940880",
+    "correo1": "arlene.garcia@enes.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1ec",
+    "nombre": "Diana Montserrat Lugo Pérez",
+    "entidad": "Alumna de la ENES Unidad León",
+    "telefono1": "4272902332",
+    "correo1": "diana.lugo@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1ed",
+    "nombre": "Renata López Banda",
+    "entidad": "Alumna de la ENES Unidad León",
+    "telefono1": "4775522426",
+    "correo1": "renata.lopez@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1ee",
+    "nombre": "Dra. Yunuen Tapia Torres",
+    "entidad": "Directora de la ENES Unidad Morelia",
+    "telefono1": "4436893501",
+    "correo1": "ytapia@enesmorelia.unam.mx",
+    "correo2": "asistente_direccion@enesmorelia.unam.mx",
+    "correo3": "kmendez@enesmorelia.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1ef",
+    "nombre": "Dra. Berenice Araceli Granadoz Vázquez",
+    "entidad": "Profesora de la ENES Unidad Morelia",
+    "telefono1": "4432990432",
+    "correo1": "bgranadoz@enesmorelia.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1f0",
+    "nombre": "Dra. Cecilia López Ridaura",
+    "entidad": "Profesora de la ENES Unidad Morelia",
+    "telefono1": "5518497639",
+    "correo1": "clopez@enesmorelia.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1f1",
+    "nombre": "Alexia Harley Ortiz Herrera",
+    "entidad": "Alumna de la ENES Unidad Morelia",
+    "telefono1": "4591005124",
+    "correo1": "alexia.ortiz@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1f2",
+    "nombre": "Natalia Ciriaco Ramírez",
+    "entidad": "Alumna de la ENES Unidad Morelia",
+    "telefono1": "5560641134",
+    "correo1": "natalia.ciriaco@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1f3",
+    "nombre": "Dr. Edgar Torres Irineo",
+    "entidad": "Profesor de la ENES Unidad Mérida",
+    "telefono1": "9993990901",
+    "correo1": "edgar.torres@enesmerida.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1f4",
+    "nombre": "Dr. Martin Francisco Fricke",
+    "entidad": "Profesor de la ENES Unidad Mérida",
+    "telefono1": "9991190268",
+    "correo1": "martin.fricke@enesmerida.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1f5",
+    "nombre": "Mtra. Daniela Huda Tarhuni Navarro",
+    "entidad": "Profesora de la ENES Unidad Mérida",
+    "telefono1": "9993316325",
+    "correo1": "daniela.tarhuni@enesmerida.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1f6",
+    "nombre": "Dra. María Andrea Giovine Yáñez",
+    "entidad": "Secretaria Académica del Instituto de Investigaciones Bibliográficas",
+    "telefono1": "26816",
+    "correo1": "agiovine@iib.unam.mx",
+    "correo2": "lupita@unam.mx",
+    "correo3": "secretariatecnicaiib@unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1f7",
+    "nombre": "Dra. Perla Olivia Rodríguez Reséndiz",
+    "entidad": "Investigadora del Instituto de Investigaciones Bibliográficas",
+    "telefono1": "30329",
+    "correo1": "perla.rodriguez@iib.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1f8",
+    "nombre": "Dr. Ariel Alejandro Rodríguez García",
+    "entidad": "Investigador del Instituto de Investigaciones Bibliográficas",
+    "telefono1": "5555952131",
+    "telefono2": "5556230351",
+    "telefono3": "5517489681",
+    "correo1": "ariel.rodriguez@iib.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1f9",
+    "nombre": "Dra. Adriana Suárez Sánchez",
+    "entidad": "Investigadora del Instituto de Investigaciones Bibliográficas",
+    "telefono1": "5575791256",
+    "telefono2": "5556230379",
+    "telefono3": "5520615468",
+    "correo1": "adriana.suarez@iib.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1fa",
+    "nombre": "Dra. Angélica Velázquez Guadarrama",
+    "entidad": "Directora del Instituto de Investigaciones Estéticas",
+    "telefono1": "85028",
+    "correo1": "avelazquez@iie.unam.mx",
+    "correo2": "direccion.iie@gmail.com",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1fb",
+    "nombre": "Dr. Jaime Genaro Cuadriello Aguilar",
+    "entidad": "Investigador del Instituto de Investigaciones Estéticas",
+    "telefono1": "5555145336",
+    "correo1": "cuadriello@iie.unam.mx",
+    "correo2": "cuajrat@gmail.com",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1fc",
+    "nombre": "Dra. Verónica Hernández Díaz",
+    "entidad": "Investigadora del Instituto de Investigaciones Estéticas",
+    "telefono1": "5556893509",
+    "correo1": "veronica.hernandez@iie.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1fd",
+    "nombre": "Dra. Lilián Álvarez Arellano",
+    "entidad": "Secretaria Académica del Instituto de Investigaciones Filológicas",
+    "telefono1": "27485 ó 60804",
+    "correo1": "lalvarez@iifilologicas.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1fe",
+    "nombre": "Dr. José Rafael Mondragón Velázquez",
+    "entidad": "Investigador del Instituto de Investigaciones Filológicas",
+    "telefono1": "5525272237",
+    "correo1": "jose.mondragon@iifilologicas.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e1ff",
+    "nombre": "Dr. Luis Estrada González",
+    "entidad": "Investigador del Instituto de Investigaciones Filológicas",
+    "telefono1": "27244",
+    "correo1": "lestrada@iifilologicas.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e200",
+    "nombre": "Dra. María Teresa Rodríguez González",
+    "entidad": "Secretaria Académica del Instituto de Investigaciones Filosóficas",
+    "telefono1": "5572654963",
+    "telefono2": "5556227427",
+    "telefono3": "5529625578",
+    "correo1": "mteresa@filosoficas.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e201",
+    "nombre": "Dr. Juan Espíndola Mata",
+    "entidad": "Investigador del Instituto de Investigaciones Filosóficas",
+    "telefono1": "5556227226",
+    "telefono2": "5512398592",
+    "correo1": "juespindola@filosoficas.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e202",
+    "nombre": "Dra. Elisa Speckman Guerra",
+    "entidad": "Directora del Instituto de Investigaciones Históricas",
+    "telefono1": "27515 ó 85452",
+    "correo1": "elisaspe@historicas.unam.mx",
+    "correo2": "asistente.direccion@historicas.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e203",
+    "nombre": "Dra. María Dolores Lorenzo Río",
+    "entidad": "Investigadora del Instituto de Investigaciones Históricas",
+    "telefono1": "5551059231",
+    "correo1": "lorenzorio@historicas.unam.mx",
+    "comentarios": "esta de sabatico"
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e204",
+    "nombre": "Dra. Estela Roselló Soberón",
+    "entidad": "Investigadora del Instituto de Investigaciones Históricas",
+    "telefono1": "5534449414",
+    "correo1": "estelarosello@historicas.unam.mx",
+    "comentarios": "tiene clases este semestre 2026-2 los viernes"
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e205",
+    "nombre": "Dra. Gabriela de la Cruz Flores",
+    "entidad": "Secretaria Académica del Instituto de Investigaciones sobre la Universidad y la Educación",
+    "telefono1": "5556651661",
+    "correo1": "gcruz@unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e206",
+    "nombre": "Dr. Jesús García Reyes",
+    "entidad": "Investigador del Instituto de Investigaciones sobre la Universidad y la Educación",
+    "telefono1": "5556226986",
+    "correo1": "jgarcia@unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e207",
+    "nombre": "Dr. Jesús Gerardo Torres Salcido",
+    "entidad": "Secretario Académico del Centro de Investigaciones sobre América Latina y el Caribe",
+    "telefono1": "30216",
+    "correo1": "jtorress@unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e208",
+    "nombre": "Dr. Fernando Neira Orjuela",
+    "entidad": "Investigador del Centro de Investigaciones sobre América Latina y el Caribe",
+    "telefono1": "5535038843",
+    "telefono2": "56230212",
+    "telefono3": "5556455926",
+    "correo1": "fneirao@unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e209",
+    "nombre": "Dra. Gaja Joanna Makaran Kubis",
+    "entidad": "Investigadora del Centro de Investigaciones sobre América Latina y el Caribe",
+    "telefono1": "5563293940",
+    "telefono2": "56230212",
+    "correo1": "gmakaran@unam.mx",
+    "correo2": "gayamakaron@unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e20a",
+    "nombre": "Dra. Amneris Chaparro Martínez",
+    "entidad": "Secretaria Académica del Centro de Investigaciones y Estudios de Género",
+    "telefono1": "30022",
+    "correo1": "amneris.chaparro@cieg.unam.mx",
+    "correo2": "direccion.asistente@cieg.unam.mx",
+    "correo3": "asistente_direccion@cieg.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e20b",
+    "nombre": "Dra. María Carolina Depetris",
+    "entidad": "Coordinadora de la Unidad de Investigación de la ENES Unidad Mérida",
+    "telefono1": "9999228446",
+    "correo1": "carolina.depetris@enesmerida.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e20c",
+    "nombre": "Dra. Sandra Lucía Sánchez Ramírez",
+    "entidad": "Investigadora de la ENES Unidad Mérida",
+    "telefono1": "9999228446",
+    "correo1": "sandra.sanchez@enesmerida.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e20d",
+    "nombre": "Dr. Jorge Arturo Taracena Arriola",
+    "entidad": "Investigador de la ENES Unidad Mérida",
+    "telefono1": "9999228446",
+    "correo1": "jorge.taracena@enesmerida.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e20e",
+    "nombre": "Dra. María de Lourdes Solís Plancarte",
+    "entidad": "Profesora de la Facultad de Música",
+    "telefono1": "5557604681",
+    "telefono2": "5523194943",
+    "correo1": "lourdes.solis@musicologia.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e20f",
+    "nombre": "Mtra. Edith Padilla Zimbrón",
+    "entidad": "Profesora de la Facultad de Música",
+    "telefono1": "5531389182",
+    "correo1": "edith.padilla@musicologia.unam.mx",
+    "correo2": "loy1629@gmail.com",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e210",
+    "nombre": "Mtra. Eva Leticia Ortiz Ávalos",
+    "entidad": "Secretaria de Apoyo Académico de la Escuela Nacional de Trabajo Social",
+    "telefono1": "44 2200 7606",
+    "correo1": "evaleticia@ents.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e211",
+    "nombre": "Dra. María Antonieta Rodríguez Rivera",
+    "entidad": "Profesora de la Escuela Nacional de Trabajo Social",
+    "telefono1": "55 1696 3145",
+    "correo1": "antonieta.rodriguez@ents.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e212",
+    "nombre": "Dra. Oralia García Cárdenas",
+    "entidad": "Profesora de la Escuela Nacional de Trabajo Social",
+    "telefono1": "55 3937 4779",
+    "correo1": "oralia.garcia@ents.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e213",
+    "nombre": "Lic. Martha Caritina Díaz Alaniz",
+    "entidad": "Alumna de la Escuela Nacional de Trabajo Social",
+    "telefono1": "55 3883 0674",
+    "correo1": "martha.diaz@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e214",
+    "nombre": "Lic. Mariana Becerril Trejo",
+    "entidad": "Alumna de la Escuela Nacional de Trabajo Social",
+    "telefono1": "55 4043 6189",
+    "correo1": "mariana.becerril@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e215",
+    "nombre": "Lic. Daniel González Escobar",
+    "entidad": "Alumno de la Escuela Nacional de Trabajo Social",
+    "correo1": "daniel.gonzalez@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e216",
+    "nombre": "Mtra. Ana Paulina Matamoros Vences",
+    "entidad": "Secretaria de Apoyo Académico de la Facultad de Estudios Superiores Zaragoza",
+    "telefono1": "55 8813 4959",
+    "correo1": "ana.matamoros@zaragoza.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e217",
+    "nombre": "Mtro. Raúl Sergio Cuéllar Sánchez",
+    "entidad": "Profesor de la Facultad de Estudios Superiores Zaragoza",
+    "correo1": "raul.cuellar@zaragoza.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e218",
+    "nombre": "María Ronces Mercado",
+    "entidad": "Alumna de la Facultad de Estudios Superiores Zaragoza",
+    "telefono1": "7228519938",
+    "correo1": "maria.ronces@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e219",
+    "nombre": "Daniela Trujillo Suárez",
+    "entidad": "Alumna de la Facultad de Estudios Superiores Zaragoza",
+    "telefono1": "9671515176",
+    "correo1": "daniela.trujillo@comunidad.unam.mx",
+    "comentarios": null
+  },
+  {
+    "_id": "6a7e10835056f44c74b3e21a",
+    "nombre": "Dr. Carlos Andrés Sánchez Soto",
+    "entidad": "Profesor de la Facultad de Estudios Superiores Zaragoza",
+    "telefono1": "951 688 6814",
+    "correo1": "carlos.sanchez@zaragoza.unam.mx",
+    "comentarios": null
+  }
+]

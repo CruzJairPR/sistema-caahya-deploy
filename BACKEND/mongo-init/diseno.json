@@ -1,0 +1,385 @@
+[
+  {
+    "_id": "6a2353792ba99de2f8934a35",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FAD",
+    "PERSONA": "Lic. Karina Díaz Barriga Morales",
+    "NOMBRAMIENTO": "Representate del profesorado",
+    "CORREO ELECTRÓNICO": "kdiazbarriga@ctac.fad.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a39",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "ENES MERIDA",
+    "PERSONA": "Dr. Édgar Torres Irineo  ",
+    "NOMBRAMIENTO": "Titular de la Entidad ",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a4a",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "MODALIDAD": "DISTANCIA",
+    "PERSONA": "ME. Carolina Tovar Gómez",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera // Profesora de Asignatura “A” interina",
+    "CORREO ELECTRÓNICO": "caritovar72@gmail.com"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a4d",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "MODALIDAD": "DISTANCIA",
+    "PERSONA": "Citlali Madrigal Galicia",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": "citlali.madrigalgalicia@gmail.com"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a50",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FACULTAD DE ARQUITECTURA ",
+    "MODALIDAD": "DISTANCIA",
+    "PERSONA": "D.I. Denhí Guadalupe Rojas Hernández",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera ",
+    "CORREO ELECTRÓNICO": "denhi.rojas@cidi.unam.mx",
+    "carrera": "DISEÑO INDUSTRIAL",
+    "correo": "denhi.rojas@cidi.unam.mx",
+    "nombramiento": "Representante del profesorado de la carrera",
+    "persona": "D.I. Denhí Guadalupe Rojas Hernández",
+    "sede": "FACULTAD DE ARQUITECTURA",
+    "updatedAt": "2026-06-05T23:09:18.579Z"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a3b",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "ENES MERIDA",
+    "PERSONA": "Dr. Yassir Jesús Rodríguez Martínez ",
+    "NOMBRAMIENTO": "Representante de profesores ",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a52",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FACULTAD DE ARQUITECTURA ",
+    "MODALIDAD": "NULL",
+    "PERSONA": "Laura Inés Ibarrola Abadie-Guillemain",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": "libarrola0@gmail.com"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a56",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FES ARAGÓN",
+    "MODALIDAD": "NULL",
+    "PERSONA": "Mtro. Javier García Figueroa",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera ",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a3d",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "ENES MERIDA",
+    "PERSONA": "Dra. Eliana Alejandra Arancibia Gutiérrez",
+    "NOMBRAMIENTO": "Representante de profesores acreditados de la LDyGI en el CEPHCIS.",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a46",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "MODALIDAD": "PRESENCIAL",
+    "PERSONA": "Arantxa Alvarado Sánchez",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": "arisoloarisi@gmail.com"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a4b",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "MODALIDAD": "DISTANCIA",
+    "PERSONA": "Dra. María Yolanda Manrique Mendoza",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera //Profesora de Asignatura “A” interina",
+    "CORREO ELECTRÓNICO": "maria.manrique@cuautitlan.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a57",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FES ARAGÓN",
+    "MODALIDAD": "NULL",
+    "PERSONA": "Sofía Fernández Saloma",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a58",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FES ARAGÓN",
+    "MODALIDAD": "NULL",
+    "PERSONA": "Dulce María Yánez Ramírez",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a37",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FAD",
+    "PERSONA": "Brenda Daniela Guzman Medina",
+    "NOMBRAMIENTO": "Representate del alumnado",
+    "CORREO ELECTRÓNICO": "b.gmedina@ctac.fad.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a3a",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "ENES MERIDA",
+    "PERSONA": "Dra. María Carolina Depetris",
+    "NOMBRAMIENTO": "Directora del CEPHCIS",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a3e",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "ENES MERIDA",
+    "PERSONA": "Dra. Virginia Cristina Carrillo Rodríguez",
+    "NOMBRAMIENTO": "Representante suplente de profesores acreditados de la LDyGI en el CEPHCIS.",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a3c",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "ENES MERIDA",
+    "PERSONA": "Dr. César Guzmán Tovar ",
+    "NOMBRAMIENTO": "Representante suplente de profesores ",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a44",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "PERSONA": "Dr. Edgar Osvaldo Archundia Gutiérrez",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera // Profesor de Carrera Asociado “C” Interino",
+    "CORREO ELECTRÓNICO": "Auge72visual@hotmail.com"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a48",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "MODALIDAD": "DISTANCIA",
+    "PERSONA": "Dr. David Quintanar Guerrero",
+    "NOMBRAMIENTO": "Titular de la entidad",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a41",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "ENES MERIDA",
+    "PERSONA": "Dr. Martin Francisco Fricke",
+    "NOMBRAMIENTO": "Coordinador de la LDyGI.",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a4f",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FACULTAD DE ARQUITECTURA ",
+    "MODALIDAD": "DISTANCIA",
+    "PERSONA": "D.I. Saúl Grimaldo López",
+    "NOMBRAMIENTO": "Coordinador del Centro de Investigaciones en Diseño Industrial",
+    "CORREO ELECTRÓNICO": "coordinacion.general@cidi.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a55",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FES ARAGÓN",
+    "MODALIDAD": "NULL",
+    "PERSONA": "Mtra. Patricia Díaz Pérez",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera ",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a59",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FES ARAGÓN",
+    "MODALIDAD": "NULL",
+    "PERSONA": "Mtro. Gerardo Caminos Gutiérrez",
+    "NOMBRAMIENTO": "Asiste del Consejo Técnico de la FES Aragón",
+    "CORREO ELECTRÓNICO": "consejotecnico@aragon.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a38",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FAD",
+    "PERSONA": "Amelia Montserrat Lara Rocha",
+    "NOMBRAMIENTO": "Representate del alumnado",
+    "CORREO ELECTRÓNICO": "am.lara24@ctac.fad.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a40",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "ENES MERIDA",
+    "PERSONA": "Br. Sofía Beatriz Dávalos Albarrán",
+    "NOMBRAMIENTO": "Representante suplente de estudiantes de la LDyGI.",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a45",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "PERSONA": "MAV. Martín Alfonoso Ramírez Martínez",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera //Profesor de Asignatura “B” definitivo",
+    "CORREO ELECTRÓNICO": "alma-rama@hotmail.com"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a4c",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "MODALIDAD": "DISTANCIA",
+    "PERSONA": "Ayhaseff Ortiz Castillo",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": "Castillovictoria673@gmail.com"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a54",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FES ARAGÓN",
+    "MODALIDAD": "NULL",
+    "PERSONA": "Ricardo Alberto Obregón",
+    "NOMBRAMIENTO": "Jefe de la Licenciatura en Diseño Industrial",
+    "CORREO ELECTRÓNICO": "disenoindustrial@aragon.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a33",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FAD",
+    "PERSONA": "Dr. Mauricio de Jesús Juárez Servín",
+    "NOMBRAMIENTO": "Titular de la Entidad",
+    "CORREO ELECTRÓNICO": "direccion@fad.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a47",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "MODALIDAD": "PRESENCIAL",
+    "PERSONA": "Carlos Xavier Segovia Breña",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": "Xavistravis.unam@gmail.com"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a43",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "PERSONA": null,
+    "NOMBRAMIENTO": "Coordinadora/Jefa de carrera de diseño",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a4e",
+    "FACULTAD": "FACULTAD DE ARQUITECTURA ",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FACULTAD DE ARQUITECTURA ",
+    "MODALIDAD": "DISTANCIA",
+    "PERSONA": "Dra. Mónica Cejudo Collera",
+    "NOMBRAMIENTO": "Titular de la entidad",
+    "CORREO ELECTRÓNICO": "direccion@fa.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a42",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "PERSONA": "Dr. David Quintanar Guerrero",
+    "NOMBRAMIENTO": "Titular de la entidad",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a53",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FACULTAD DE ARQUITECTURA ",
+    "MODALIDAD": "NULL",
+    "PERSONA": "Miguel Ángel González Reyes",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": "317653940@cidi.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a3f",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "ENES MERIDA",
+    "PERSONA": "Br. Luna Blanco Sanz",
+    "NOMBRAMIENTO": "Representante de estudiantes de la LDyGI.",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a51",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO INDUSTRIAL",
+    "SEDE": "FACULTAD DE ARQUITECTURA ",
+    "MODALIDAD": "DISTANCIA",
+    "PERSONA": "Dr. Andrés Joaquín Fonseca Murillo",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera ",
+    "CORREO ELECTRÓNICO": "andres.fonseca@cidi.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a34",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FAD",
+    "PERSONA": "Mtra. Blanca Rodríguez Moreno",
+    "NOMBRAMIENTO": "Coordinadora de Carreras",
+    "CORREO ELECTRÓNICO": "codiseno@fad.unam.mx",
+    "carrera": "DISEÑO",
+    "correo": "codiseno@fad.unam.mx",
+    "nombramiento": "Coordinadora de Carreras",
+    "persona": "Mtra. Blanca Rodríguez Moreno",
+    "sede": "FAD",
+    "updatedAt": "2026-06-05T23:00:02.882Z"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a36",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FAD",
+    "PERSONA": "Mtro. Alejandro Herrerías Sílva",
+    "NOMBRAMIENTO": "Representate del profesorado",
+    "CORREO ELECTRÓNICO": "aherrerias@ctac.fad.unam.mx"
+  },
+  {
+    "_id": "6a2353792ba99de2f8934a49",
+    "FACULTAD": "FACULTAD DE ARTE Y DISEÑO",
+    "CARRERA": "DISEÑO",
+    "SEDE": "FES CUAUTITLÁN",
+    "MODALIDAD": "DISTANCIA",
+    "PERSONA": null,
+    "NOMBRAMIENTO": "Coordinadora/Jefa de carrera de diseño",
+    "CORREO ELECTRÓNICO": null
+  }
+]

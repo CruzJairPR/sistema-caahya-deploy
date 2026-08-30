@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "6a2342052ba99de2f89349d8",
+    "CARRERA": "Desarrollo y Gestión Intercultural",
+    "FACULTAD": "FACULTAD DE FILOSOFIA Y LETRAS",
+    "SEDE": "ENES LEON",
+    "PERSONA": "Esmeralda Guadalupe Sánchez Guzmán",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": "esmeguzman028@gmail.com"
+  },
+  {
+    "_id": "6a2342052ba99de2f89349d6",
+    "CARRERA": "Desarrollo y Gestión Intercultural",
+    "FACULTAD": "FACULTAD DE FILOSOFIA Y LETRAS",
+    "SEDE": "ENES LEON",
+    "PERSONA": "Dr. Ángel Vicente Ferrer",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera",
+    "CORREO ELECTRÓNICO": "avicente@enes.unam.mx"
+  },
+  {
+    "_id": "6a2342052ba99de2f89349d4",
+    "CARRERA": "Desarrollo y Gestión Intercultural",
+    "FACULTAD": "FACULTAD DE FILOSOFIA Y LETRAS",
+    "SEDE": "ENES LEON",
+    "PERSONA": "Dr. Miguel Santos Salinas Ramos",
+    "NOMBRAMIENTO": "Co-respoinsable de carrera",
+    "CORREO ELECTRÓNICO": "msantoss@enes.unam.mx"
+  },
+  {
+    "_id": "6a2342052ba99de2f89349d3",
+    "CARRERA": "Desarrollo y Gestión Intercultural",
+    "FACULTAD": "FACULTAD DE FILOSOFIA Y LETRAS",
+    "SEDE": "ENES LEON",
+    "PERSONA": "Dra. Diana Karen González Lara",
+    "NOMBRAMIENTO": "Co-respoinsable de carrera",
+    "CORREO ELECTRÓNICO": "dkgonzalezl@enes.unam.mx"
+  },
+  {
+    "_id": "6a2342052ba99de2f89349d2",
+    "CARRERA": "Desarrollo y Gestión Intercultural",
+    "FACULTAD": "FACULTAD DE FILOSOFIA Y LETRAS",
+    "SEDE": "ENES LEON",
+    "PERSONA": "Mtro. Slavador Andrade Ortiz",
+    "NOMBRAMIENTO": "Titular",
+    "CORREO ELECTRÓNICO": "direccion@enes.unam.mx"
+  },
+  {
+    "_id": "6a2342052ba99de2f89349d7",
+    "CARRERA": "Desarrollo y Gestión Intercultural",
+    "FACULTAD": "FACULTAD DE FILOSOFIA Y LETRAS",
+    "SEDE": "ENES LEON",
+    "PERSONA": "Abril Estefanía Hernández Tovar",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": "abril2202ht@gmail.com"
+  },
+  {
+    "_id": "6a2342052ba99de2f89349d5",
+    "CARRERA": "Desarrollo y Gestión Intercultural",
+    "FACULTAD": "FACULTAD DE FILOSOFIA Y LETRAS",
+    "SEDE": "ENES LEON",
+    "PERSONA": "Mtra. Daniela Ávalos Muñoz",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera",
+    "CORREO ELECTRÓNICO": "davalos@enes.unam.mx"
+  }
+]

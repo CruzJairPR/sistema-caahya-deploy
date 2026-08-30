@@ -1,0 +1,434 @@
+[
+  {
+    "_id": "6a90728f17f0a2b5a27b31f5",
+    "idioma": "PORTUGUÉS",
+    "integrante": "DG MERCEDES TRUJILLO MOLINA",
+    "cargo": "Profesora de Asignatura “A”",
+    "adscripcion": "FES ACATLÁN",
+    "periodo_integrante": {
+      "periodo": "Primer Periodo",
+      "fecha_inicio": "2025-09-05T00:00:00",
+      "fecha_final": "2027-09-05T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31f7",
+    "idioma": "JAPONÉS",
+    "integrante": "PROF. YUJI TAKATA",
+    "cargo": "Profesor de Asignatura “A” Interino",
+    "adscripcion": "FES ACATLÁN",
+    "periodo_integrante": {
+      "periodo": "Tercer periodo",
+      "fecha_inicio": "2025-06-05T00:00:00",
+      "fecha_final": "2027-06-04T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31ed",
+    "idioma": "FRANCÉS",
+    "integrante": "MTRA. XÓCHITL ESPINOSA VASSEUR",
+    "cargo": "Profesora de francés.",
+    "adscripcion": "ENALLT",
+    "periodo_integrante": {
+      "periodo": "Primer Periodo",
+      "fecha_inicio": "2026-02-20T00:00:00",
+      "fecha_final": "2028-02-20T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31fb",
+    "idioma": "NÁHUATL",
+    "integrante": "Dra. Elsa del Valle Núñez",
+    "cargo": "Profesor asociado B, tiempo completo",
+    "adscripcion": "ENALLT",
+    "periodo_integrante": {
+      "periodo": "Primer periodo",
+      "fecha_inicio": "2026-04-17T00:00:00",
+      "fecha_final": "2028-04-17T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31f0",
+    "idioma": "ALEMÁN",
+    "integrante": "MTRA. MARTINA CAROLINE HALL",
+    "cargo": "Profesora de Carrera Asociada C TC",
+    "adscripcion": "ENALLT",
+    "periodo_integrante": {
+      "periodo": "Tercer periodo",
+      "fecha_inicio": "2025-04-28T00:00:00",
+      "fecha_final": "2027-04-27T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": true,
+      "periodo": "Primer periodo",
+      "fecha_inicio": "2025-04-28T00:00:00",
+      "fecha_final": "2027-04-27T00:00:00"
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31f8",
+    "idioma": "JAPONÉS",
+    "integrante": "LIC. ELISA AKEMI SHIMAZAKI MIHO",
+    "cargo": "Profesora de Asignatura “A” Interina",
+    "adscripcion": "ENALLT",
+    "periodo_integrante": {
+      "periodo": "Tercer periodo",
+      "fecha_inicio": "2025-06-05T00:00:00",
+      "fecha_final": "2027-06-04T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": true,
+      "periodo": "Segundo periodo",
+      "fecha_inicio": "2023-06-04T00:00:00",
+      "fecha_final": "2025-06-04T00:00:00"
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31f3",
+    "idioma": "ITALIANO",
+    "integrante": "MTRA. DIANA BERENICE    MARTÍNEZ",
+    "cargo": "Profesora de asignatura “A” Definitiva",
+    "adscripcion": "ENALLT",
+    "periodo_integrante": {
+      "periodo": "Segundo Periodo",
+      "fecha_inicio": "2024-09-09T00:00:00",
+      "fecha_final": "2026-09-08T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": true,
+      "periodo": "Primer periodo",
+      "fecha_inicio": "2026-08-21T00:00:00",
+      "fecha_final": "2028-08-20T00:00:00"
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31e6",
+    "idioma": "INGLÉS",
+    "integrante": "MTRO. ANTONIO MARIO SERVÍN MEDINA",
+    "cargo": "Profesor de Asignatura",
+    "adscripcion": "FES ACATLÁN",
+    "periodo_integrante": {
+      "periodo": "Primer Periodo",
+      "fecha_inicio": "2026-01-23T00:00:00",
+      "fecha_final": "2028-01-23T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31ea",
+    "idioma": "INGLÉS",
+    "integrante": "MTRA. ERIKA CARMINA REYES ROJAS",
+    "cargo": "Profesora de Asignatura “A”",
+    "adscripcion": "FES ARAGÓN",
+    "periodo_integrante": {
+      "periodo": "Segundo Periodo",
+      "fecha_inicio": "2026-02-20T00:00:00",
+      "fecha_final": "2028-02-20T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31f9",
+    "idioma": "CHINO",
+    "integrante": "Prof. Ricardo Cornejo Ávila",
+    "cargo": "Profesor de Asignatura \"A\" Interino",
+    "adscripcion": "ENALLT",
+    "periodo_integrante": {
+      "periodo": "Primer periodo",
+      "fecha_inicio": "2026-04-17T00:00:00",
+      "fecha_final": "2028-04-17T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31fc",
+    "idioma": "PURÉPECHA",
+    "integrante": "MTRA. ALICIA MATEO MANZO",
+    "cargo": "Profesora de Asignatura “A”",
+    "adscripcion": "ENES MORELIA",
+    "periodo_integrante": {
+      "periodo": "Quinto Periodo",
+      "fecha_inicio": "2026-06-24T00:00:00",
+      "fecha_final": "2028-06-23T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": true,
+      "periodo": "Tercer periodo",
+      "fecha_inicio": "2026-06-24T00:00:00",
+      "fecha_final": "2028-06-23T00:00:00"
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31e9",
+    "idioma": "INGLÉS",
+    "integrante": "LIC. RITA HERNÁNDEZ TÉLLEZ",
+    "cargo": "Profesora de Asignatura “A”",
+    "adscripcion": "FES ARAGÓN",
+    "periodo_integrante": {
+      "periodo": "Segundo Periodo",
+      "fecha_inicio": "2026-02-20T00:00:00",
+      "fecha_final": "2028-02-20T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31fa",
+    "idioma": "NÁHUATL",
+    "integrante": "LIC. JOSÉ LEONARDO BONILLA SÁNCHEZ",
+    "cargo": "Profesor de Asignatura A Interino",
+    "adscripcion": "FES ARAGÓN",
+    "periodo_integrante": {
+      "periodo": "Segundo Periodo",
+      "fecha_inicio": "2025-06-24T00:00:00",
+      "fecha_final": "2027-06-23T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31e8",
+    "idioma": "INGLÉS",
+    "integrante": "MTRO. FRANCISCO JAVIER GARRIDO SEGURA",
+    "cargo": "Profesor de asignatura A interino",
+    "adscripcion": "FES ARAGÓN",
+    "periodo_integrante": {
+      "periodo": "Segundo Periodo",
+      "fecha_inicio": "2024-09-09T00:00:00",
+      "fecha_final": "2026-09-09T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": true,
+      "periodo": "Primer periodo",
+      "fecha_inicio": "2026-08-21T00:00:00",
+      "fecha_final": "2028-08-20T00:00:00"
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31ee",
+    "idioma": "FRANCÉS",
+    "integrante": "MTRO. LUIS ENRIQUE PRIETO MARÍN",
+    "cargo": "Profesor asociado “C” TC",
+    "adscripcion": "FES Acatlán",
+    "periodo_integrante": {
+      "periodo": "Segundo Periodo",
+      "fecha_inicio": "2026-02-20T00:00:00",
+      "fecha_final": "2028-02-20T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31ef",
+    "idioma": "FRANCÉS",
+    "integrante": "MTRO. LUIS ARTURO VELASCO REYES",
+    "cargo": "Profesor asociado “C” TC",
+    "adscripcion": "CCH Sur",
+    "periodo_integrante": {
+      "periodo": "Segundo Periodo",
+      "fecha_inicio": "2026-04-27T00:00:00",
+      "fecha_final": "2028-04-26T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31f1",
+    "idioma": "ALEMÁN",
+    "integrante": "LIC. ALEJANDRO BARRIOS GONZÁLEZ",
+    "cargo": "Profesor de Asignatura “A”",
+    "adscripcion": "ENALLT",
+    "periodo_integrante": {
+      "periodo": "Primer Periodo",
+      "fecha_inicio": "2024-09-19T00:00:00",
+      "fecha_final": "2026-09-19T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31ec",
+    "idioma": "FRANCÉS",
+    "integrante": "PROF. CÉSAR AUGUSTO PAZ LUCIO",
+    "cargo": "Profesor de Asignatura",
+    "adscripcion": "FES ACATLÁN",
+    "periodo_integrante": {
+      "periodo": "Primer Periodo",
+      "fecha_inicio": "2026-01-23T00:00:00",
+      "fecha_final": "2028-01-23T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31f4",
+    "idioma": "ITALIANO",
+    "integrante": "MTRO. ANDREA ALÍ",
+    "cargo": "Profesor de Asignatura A",
+    "adscripcion": "FES ACATLÁN",
+    "periodo_integrante": {
+      "periodo": "Primer Periodo",
+      "fecha_inicio": "2025-06-27T00:00:00",
+      "fecha_final": "2027-06-27T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31fd",
+    "idioma": "PURÉPECHA",
+    "integrante": "MTRO. BENJAMÍN LUCAS JUÁREZ",
+    "cargo": "Profesor de asignatura “A”",
+    "adscripcion": "ENES MORELIA",
+    "periodo_integrante": {
+      "periodo": "Segundo Periodo",
+      "fecha_inicio": "2025-04-28T00:00:00",
+      "fecha_final": "2027-04-27T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31f2",
+    "idioma": "ITALIANO",
+    "integrante": "MTRA. VIVIANA MARITZA PAEZ ARANCIBIA",
+    "cargo": "Profesora de Carrera TC",
+    "adscripcion": "FES ACATLÁN",
+    "periodo_integrante": {
+      "periodo": "Cuarto periodo",
+      "fecha_inicio": "2026-08-28T00:00:00",
+      "fecha_final": "2028-08-27T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31e7",
+    "idioma": "INGLÉS",
+    "integrante": "LIC. NOHEMÍ EUGENIA ESPARZA ARELLANO",
+    "cargo": "Profesora de Asignatura “A” Interina",
+    "adscripcion": "CCH AZCAPOTZALCO",
+    "periodo_integrante": {
+      "periodo": "Segundo Periodo",
+      "fecha_inicio": "2024-09-09T00:00:00",
+      "fecha_final": "2026-09-09T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31eb",
+    "idioma": "INGLÉS",
+    "integrante": "PROF. Oscar García Benavides",
+    "cargo": "Profesor de Inglés",
+    "adscripcion": "ENALLT",
+    "periodo_integrante": {
+      "periodo": "Primer Periodo",
+      "fecha_inicio": "2026-04-17T00:00:00",
+      "fecha_final": "2028-04-22T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  },
+  {
+    "_id": "6a90728f17f0a2b5a27b31f6",
+    "idioma": "PORTUGUÉS",
+    "integrante": "LIC. BERENICE JIMÉNEZ HIDALGO",
+    "cargo": "Profesora de Asignatura “A” Interina",
+    "adscripcion": "ENALLT",
+    "periodo_integrante": {
+      "periodo": "Segundo Periodo",
+      "fecha_inicio": "2026-04-27T00:00:00",
+      "fecha_final": "2028-04-26T00:00:00"
+    },
+    "coordinacion": {
+      "es_coordinador": false,
+      "periodo": null,
+      "fecha_inicio": null,
+      "fecha_final": null
+    }
+  }
+]

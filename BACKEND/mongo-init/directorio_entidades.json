@@ -1,0 +1,443 @@
+[
+  {
+    "_id": "6a19d0f924af5d893eec6e81",
+    "entidad": "INSTITUTO DE INVESTIGACIONES HISTÓRICAS",
+    "director": {
+      "nombre": "DRA. ELISA SPECKMAN GUERRA",
+      "correo": "direccion@historicas.unam.mx:"
+    },
+    "secretario": {
+      "nombre": "Dra. Claudia Amalia Agostoni Urencio",
+      "correo": "saiih@unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Irene García Alquicira",
+        "correo": "asistente.direccion@historicas.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e74",
+    "entidad": "FACULTAD DE ESTUDIOS SUPERIORES ZARAGOZA",
+    "director": {
+      "nombre": "DR. VICENTE JESÚS HERNÁNDEZ ABAD",
+      "correo": "director@zaragoza.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dra. Mirna García Méndez",
+      "correo": "secretaria.general@zaragoza.unam.mx"
+    },
+    "cuerposColegiados": null
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e7d",
+    "entidad": "INSTITUTO DE INVESTIGACIONES BIBLIOTECOLÓGICAS Y DE LA INFORMACIÓN",
+    "director": {
+      "nombre": "DRA. PERLA OLIVIA RODRÍGUEZ RESÉNDIZ",
+      "correo": "direccion@iibi.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dr. César Augusto Ramírez Velázquez",
+      "correo": "academic@iibi.unam.mx; carv@unam.mx"
+    },
+    "cuerposColegiados": null
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e71",
+    "entidad": "FACULTAD DE ESTUDIOS SUPERIORES ACATLÁN",
+    "director": {
+      "nombre": "MTRA. NORA DEL CONSUELO GORIS MAYANS",
+      "correo": "direccion@acatlan.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dra. Ericka Judith Arias Guzmán",
+      "correo": "sgeneral@acatlan.unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Mtro. Christian Roberto Salazar Montiel",
+        "correo": "ccuerposcolegiados@acatlan.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e73",
+    "entidad": "FACULTAD DE ESTUDIOS SUPERIORES CUAUTITLÁN",
+    "director": {
+      "nombre": "DR. DAVID QUINTANAR GUERRERO",
+      "correo": "adriana.basgal@unam.mx; coordinacion.gestion@cuautitlan.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dra. María Guadalupe Calderón Martínez",
+      "correo": "secretariageneral@cuautitlan.unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Lic. Omar Gaddiel Pérez Alvarado",
+        "correo": "comisiones.dictaminadoras.fesc@cuautitlan.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e85",
+    "entidad": "CENTRO PENINSULAR EN HUMANIDADES Y CIENCIAS SOCIALES",
+    "director": {
+      "nombre": "DRA. MARIA CAROLINA DEPETRIS",
+      "correo": "direccion@cephcis.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dr. David de Ángel García",
+      "correo": "david.deangel@cephcis.unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Lic. Rosalía Villaseñor Sánchez",
+        "correo": "secreacad@cephcis.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e7b",
+    "entidad": "ESCUELA NACIONAL PREPARAGORIA",
+    "director": {
+      "nombre": "Biól. María Dolores Valle Martínez",
+      "correo": "direccion.general@dgenp.unam.mx"
+    },
+    "secretario": {
+      "nombre": null,
+      "correo": null
+    },
+    "cuerposColegiados": []
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e72",
+    "entidad": "FACULTAD DE ESTUDIOS SUPERIORES ARAGÓN",
+    "director": {
+      "nombre": "DRA. ARACELI ROMO CABRERA",
+      "correo": "direccion@aragon.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Mtro. Manuel Silva Sánchez",
+      "correo": "secretariageneral@aragon.unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Ing. Irenia Padilla",
+        "correo": "cuerposcolegiados@aragon.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e75",
+    "entidad": "FACULTAD DE MÚSICA",
+    "director": {
+      "nombre": "MTRA. MARÍA TERESA NAVARRO AGRAZ",
+      "correo": "direccion@fam.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Mtro. José Francisco Gómez Pérez",
+      "correo": "jfgomez.sac@fam.unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Mtro. Hernán Becerra",
+        "correo": "hernanbh@fam.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e78",
+    "entidad": "ESCUELA NACIONAL DE ESTUDIOS SUPERIORES, UNIDAD LEÓN",
+    "director": {
+      "nombre": "Mtro. Salvador Andrade Ortiz",
+      "correo": "direccion@enes.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Mtra. Bibiana Alexandra Rodríguez Bogarín",
+      "correo": "brodriguezb@enes.unam.mx"
+    },
+    "cuerposColegiados": []
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e88",
+    "entidad": "DIRECCIÓN GENERAL DE BIBLIOTECAS Y SERVICIOS DIGITALES DE INFORMACIÓN",
+    "director": {
+      "nombre": "DRA. ELSA MARGARITA RAMÍREZ LEYVA",
+      "correo": "eramirezl@dgb.unam.mx, eramirez@unam.mx"
+    },
+    "secretario": {
+      "nombre": "Lic. José Luis Almanza Morales",
+      "correo": "secretaria_academica@dgb.unam.mx"
+    },
+    "cuerposColegiados": null
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e7f",
+    "entidad": "INSTITUTO DE INVESTIGACIONES FILOLÓGICAS",
+    "director": {
+      "nombre": "DRA. LILIÁN ÁLVAREZ ARELLANO",
+      "correo": "iifldir@unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dr. Sergio Ibáñez Cerda",
+      "correo": "iifl.sacademica@unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Mtro. Sergio Reyes Coria",
+        "correo": "iifl.stecnica@unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e82",
+    "entidad": "INSTITUTO DE INVESTIGACIONES SOBRE LA UNIVERSIDAD Y LA EDUCACIÓN",
+    "director": {
+      "nombre": "DRA. GABRIELA DE LA CRUZ FLORES",
+      "correo": "diriisue@unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dra. Ana Laura Gallardo Gutiérrez",
+      "correo": "saciisue@unam.mx"
+    },
+    "cuerposColegiados": null
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e83",
+    "entidad": "CENTRO DE INVESTIGACIONES Y ESTUDIOS DE GÉNERO",
+    "director": {
+      "nombre": "DRA. AMNERIS CHAPARRO MARTÍNEZ",
+      "correo": "amneris_chaparro@cieg.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Drx. César Torres Cruz",
+      "correo": "cesar_torres@cieg.unam.mx"
+    },
+    "cuerposColegiados": null
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e84",
+    "entidad": "CENTRO DE INVESTIGACIONES SOBRE AMÉRICA LATINA Y EL CARIBE",
+    "director": {
+      "nombre": "DR. JESÚS GERARDO TORRES SALCIDO",
+      "correo": "direccion.cialc@unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dr. Mario Vázquez Olivera",
+      "correo": "cialc.secretaria.academica@unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Lucina Olmos Torres",
+        "correo": "lucina_o96@yahoo.com.mx"
+      }
+    ],
+    "updatedAt": "2026-08-05T18:50:45.814Z"
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e77",
+    "entidad": "ESCUELA NACIONAL DE ARTES CINEMATOGRÁFICAS",
+    "director": {
+      "nombre": "LIC. MARÍA DE LOS ÁNGELES GUADALUPE CASTRO GURRÍA",
+      "correo": "asistente.dir@enac.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Cineasta Santiago Torres Pérez",
+      "correo": "sg@enac.unam.mx"
+    },
+    "cuerposColegiados": null
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e6f",
+    "entidad": "FACULTAD DE FILOSOFÍA Y LETRAS",
+    "director": {
+      "nombre": "DRA. MARY FRANCES RODRÍGUEZ VAN GORT",
+      "correo": "direccion@filos.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Mtro. Emilio Alberto Méndez Ríos",
+      "correo": "secretariageneral@filos.unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Lic. Elvia Rosas Rivera (Dictaminadoras)",
+        "correo": "dictaminadoras@filos.unam.mx"
+      },
+      {
+        "nombre": "Sergio Rubén Maldonado Juárez (Evaluadoras)",
+        "correo": "programasespeciales@filos.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e7e",
+    "entidad": "INSTITUTO DE INVESTIGACIONES ESTÉTICAS",
+    "director": {
+      "nombre": "DRA. ANGÉLICA VELÁZQUEZ GUADARRAMA",
+      "correo": "iie.direccion@unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dr. Luis Adrián Vargas Santiago",
+      "correo": "sacademica.iie@gmail.com"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Guadalupe Arrona",
+        "correo": "arrona@unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e86",
+    "entidad": "CENTRO DE ENSEÑANZA PARA EXTRANJEROS",
+    "director": {
+      "nombre": "LIC. ANA ELSA PÉREZ MARTÍNEZ",
+      "correo": "anel@cepe.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Lic. Jorge Jiménez Rentería",
+      "correo": "jimenezr@cepe.unam.mx"
+    },
+    "cuerposColegiados": null,
+    "updatedAt": "2026-08-05T18:50:22.593Z"
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e87",
+    "entidad": "CENTRO UNIVERSITARIO DE TEATRO",
+    "director": {
+      "nombre": "LIC. EMMA GRACIELA DIB MERCADO",
+      "correo": "cutdir@unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dra. Patricia Ducoing Watty",
+      "correo": "cutsec@unam.mx"
+    },
+    "cuerposColegiados": null
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e7a",
+    "entidad": "ESCUELA NACIONAL DE ESTUDIOS SUPERIORES, UNIDAD MÉRIDA",
+    "director": {
+      "nombre": "DR. FRANCISCO XAVIER CHIAPPA CARRARA",
+      "correo": "direccion@enesmerida.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dr. Rubén Torres Martínez",
+      "correo": "secretaria.general@enesmerida.unam.mx"
+    },
+    "cuerposColegiados": null,
+    "updatedAt": "2026-07-22T18:57:22.499Z"
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e76",
+    "entidad": "ESCUELA NACIONAL DE LENGUAS, LINGÜÍSTICA Y TRADUCCIÓN",
+    "director": {
+      "nombre": "DR. ARTURO MENDOZA RAMOS",
+      "correo": "direccion@enallt.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dra. Elsa Viviana Oropeza Gracia",
+      "correo": "secretariageneral@enallt.unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Lic. Armando Gamiño Horteales\nLic. Carlos García Naranjo",
+        "correo": "secretariatecnica@enallt.unam.mx\ncnaranjo@enallt.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e6e",
+    "entidad": "FACULTAD DE ARQUITECTURA",
+    "director": {
+      "nombre": "DRA. MÓNICA CEJUDO COLLERA",
+      "correo": "direccion@fa.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dr. Pablo Francisco Gómez Porter",
+      "correo": "s.general@fa.unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Mtro. Jorge Enrique Páez Vieyra",
+        "correo": "colegiados@fa.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e70",
+    "entidad": "FACULTAD DE ARTES Y DISEÑO",
+    "director": {
+      "nombre": "DR. MAURICIO DE JESÚS JUÁREZ SERVÍN",
+      "correo": "fad@unam.mx; direccion@fad.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dr. Oscar Ulises Verde Tapia",
+      "correo": "secretaria.general@fad.unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Yunuén Zepeda Serratos",
+        "correo": "comisiones.dictaminadoras@fad.unam.mx\nestimulos.academicos@fad.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e7c",
+    "entidad": "INSTITUTO DE INVESTIGACIONES BIBLIOGRÁFICAS",
+    "director": {
+      "nombre": "DRA. MARÍA ANDREA GIOVINE YÁÑEZ",
+      "correo": "direccioniib@unam.mx"
+    },
+    "secretario": {
+      "nombre": "Mtro. Dalmacio Rodríguez Hernández",
+      "correo": "sacademicaiib@unam.mx"
+    },
+    "cuerposColegiados": null
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e89",
+    "entidad": "DIRECCIÓN GENERAL DE ASUNTOS DE PERSONAL ACADÉMICO",
+    "director": {
+      "nombre": "DR. FERNANDO RAFAEL CASTAÑEDA SABIDO",
+      "correo": "fsabido@dgapa.unam.mx; dirgpa@dgapa.unam.mx"
+    },
+    "secretario": {
+      "nombre": "No aplica",
+      "correo": "No aplica"
+    },
+    "cuerposColegiados": null
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e79",
+    "entidad": "ESCUELA NACIONAL DE ESTUDIOS SUPERIORES, UNIDAD MORELIA",
+    "director": {
+      "nombre": "DRA. YUNUEN TAPIA TORRES",
+      "correo": "direccion@enesmorelia.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dra. Ana Yésica Martínez Villalba",
+      "correo": "secretaria_general@enesmorelia.unam.mx"
+    },
+    "cuerposColegiados": [
+      {
+        "nombre": "Lic. Marcela Katia Méndez Flores",
+        "correo": "kmendez@enesmorelia.unam.mx"
+      }
+    ]
+  },
+  {
+    "_id": "6a19d0f924af5d893eec6e80",
+    "entidad": "INSTITUTO DE INVESTIGACIONES FILOSÓFICAS",
+    "director": {
+      "nombre": "Dr. Luis Estrada González",
+      "correo": "dir@filosoficas.unam.mx"
+    },
+    "secretario": {
+      "nombre": "Dra. Fernanda Samaniego Bañuelos",
+      "correo": "s.acad.iif@gmail.com"
+    },
+    "cuerposColegiados": null
+  }
+]

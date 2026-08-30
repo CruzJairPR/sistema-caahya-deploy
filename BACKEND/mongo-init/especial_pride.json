@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "6a7cd519f5450396f0746dbb",
+    "nombre": "Dra. Marina Garone Gravier (Instituto de Investigaciones Bibliográficas)",
+    "fuente_designacion": "Consejo Académico",
+    "inicio": "2024-11-11",
+    "final": "2026-11-11",
+    "periodo": "Primer Periodo",
+    "observaciones": ""
+  },
+  {
+    "_id": "6a7cd519f5450396f0746dbc",
+    "nombre": "Dra. María del Carmen Serra Puche (Instituto de Investigaciones Antropológicas)",
+    "fuente_designacion": "Consejo Académico",
+    "inicio": "2024-12-05",
+    "final": "2026-12-05",
+    "periodo": "Segundo Periodo",
+    "observaciones": ""
+  },
+  {
+    "_id": "6a7cd519f5450396f0746dbd",
+    "nombre": "Dr. Patrick Johansson Keraudren (Instituto de Investigaciones Históricas)",
+    "fuente_designacion": "Consejo Académico",
+    "inicio": "2026-04-17",
+    "final": "2028-04-17",
+    "periodo": "Primer Periodo",
+    "observaciones": ""
+  },
+  {
+    "_id": "6a7cd519f5450396f0746dbe",
+    "nombre": "Dra. Gloria Villegas Moreno (Facultad de Filosofía y Letras)",
+    "fuente_designacion": "Consejo Académico",
+    "inicio": "2025-09-16",
+    "final": "2027-09-15",
+    "periodo": "Segundo Periodo",
+    "observaciones": ""
+  },
+  {
+    "_id": "6a7cd519f5450396f0746dbf",
+    "nombre": "Dra. María Teresa Uriarte Castañeda (Instituto de Investigaciones Estéticas)",
+    "fuente_designacion": "Sr. Rector",
+    "inicio": "2025-02-27",
+    "final": "2027-02-27",
+    "periodo": "Primer Periodo",
+    "observaciones": ""
+  },
+  {
+    "_id": "6a7cd519f5450396f0746dc0",
+    "nombre": "Dr. Gabriel Mérigo Basurto (Facultad de Arquitectura)",
+    "fuente_designacion": "Sr. Rector",
+    "inicio": "2025-08-01",
+    "final": "2027-08-01",
+    "periodo": "Segundo Periodo",
+    "observaciones": ""
+  },
+  {
+    "_id": "6a7cd519f5450396f0746dc1",
+    "nombre": "Dra. Sandra Peña Haro (Instituto de Investigaciones sobre la Universidad y la Educación)",
+    "fuente_designacion": "Consejo Académico",
+    "inicio": "2024-09-09",
+    "final": "2026-09-08",
+    "periodo": "Segundo Periodo",
+    "observaciones": ""
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "6a1e0f7f5aa5536f0a9fae3c",
+    "sistema": "Sistema de Universidad Abierta y Educación a Distancia",
+    "licenciatura": "Administración de Archivos y Gestión Documental",
+    "entidad": "Escuela Nacional de Estudios Superiores Unidad Morelia",
+    "creacion_implantacion": 2017,
+    "modificacion": null,
+    "evaluacion": null,
+    "adecuacion_temas_emergentes": null,
+    "adecuacion_titulacion": null
+  },
+  {
+    "_id": "6a1e0f7f5aa5536f0a9fae43",
+    "sistema": "Sistema de Universidad Abierta y Educación a Distancia",
+    "licenciatura": "Enseñanza de Español, Alemán, Francés, Portugués e Italiano como Lengua Extranjera",
+    "entidad": "Facultad de Estudios Superiores Acatlán",
+    "creacion_implantacion": 2004,
+    "modificacion": null,
+    "evaluacion": 2022,
+    "adecuacion_temas_emergentes": null,
+    "adecuacion_titulacion": null
+  },
+  {
+    "_id": "6a1e0f7f5aa5536f0a9fae3f",
+    "sistema": "Sistema de Universidad Abierta y Educación a Distancia",
+    "licenciatura": "Pedagogía (SUAyED)",
+    "entidad": "Facultad de Filosofía y Letras",
+    "creacion_implantacion": 2006,
+    "modificacion": null,
+    "evaluacion": null,
+    "adecuacion_temas_emergentes": null,
+    "adecuacion_titulacion": null
+  },
+  {
+    "_id": "6a1e0f7f5aa5536f0a9fae41",
+    "sistema": "Sistema de Universidad Abierta y Educación a Distancia",
+    "licenciatura": "Pedagogía (SUA)",
+    "entidad": "Facultad de Filosofía y Letras",
+    "creacion_implantacion": 1979,
+    "modificacion": null,
+    "evaluacion": null,
+    "adecuacion_temas_emergentes": 2022,
+    "adecuacion_titulacion": null
+  },
+  {
+    "_id": "6a1e0f7f5aa5536f0a9fae44",
+    "sistema": "Sistema de Universidad Abierta y Educación a Distancia",
+    "licenciatura": "Filosofía",
+    "entidad": "Facultad de Filosofía y Letras",
+    "creacion_implantacion": 1979,
+    "modificacion": null,
+    "evaluacion": 2025,
+    "adecuacion_temas_emergentes": 2022,
+    "adecuacion_titulacion": null
+  },
+  {
+    "_id": "6a1e0f7f5aa5536f0a9fae45",
+    "sistema": "Sistema de Universidad Abierta y Educación a Distancia",
+    "licenciatura": "Historia",
+    "entidad": "Facultad de Filosofía y Letras",
+    "creacion_implantacion": 1979,
+    "modificacion": null,
+    "evaluacion": 2025,
+    "adecuacion_temas_emergentes": 2022,
+    "adecuacion_titulacion": null
+  },
+  {
+    "_id": "6a1e0f7f5aa5536f0a9fae3e",
+    "sistema": "Sistema de Universidad Abierta y Educación a Distancia",
+    "licenciatura": "Lengua y Literatura Hispánicas",
+    "entidad": "Facultad de Filosofía y Letras",
+    "creacion_implantacion": 1979,
+    "modificacion": 2006,
+    "evaluacion": null,
+    "adecuacion_temas_emergentes": 2022,
+    "adecuacion_titulacion": null
+  },
+  {
+    "_id": "6a1e0f7f5aa5536f0a9fae40",
+    "sistema": "Sistema de Universidad Abierta y Educación a Distancia",
+    "licenciatura": "Lengua y Literatura Modernas (Letras Inglesas)",
+    "entidad": "Facultad de Filosofía y Letras",
+    "creacion_implantacion": 1979,
+    "modificacion": null,
+    "evaluacion": null,
+    "adecuacion_temas_emergentes": 2022,
+    "adecuacion_titulacion": null
+  },
+  {
+    "_id": "6a1e0f7f5aa5536f0a9fae3d",
+    "sistema": "Sistema de Universidad Abierta y Educación a Distancia",
+    "licenciatura": "Diseño y Comunicación Visual",
+    "entidad": "Facultad de Estudios Superiores Cuautitlán",
+    "creacion_implantacion": 2012,
+    "modificacion": null,
+    "evaluacion": null,
+    "adecuacion_temas_emergentes": 2025,
+    "adecuacion_titulacion": null
+  },
+  {
+    "_id": "6a1e0f7f5aa5536f0a9fae42",
+    "sistema": "Sistema de Universidad Abierta y Educación a Distancia",
+    "licenciatura": "Bibliotecología y Estudios de la Información",
+    "entidad": "Facultad de Filosofía y Letras",
+    "creacion_implantacion": 2010,
+    "modificacion": null,
+    "evaluacion": 2025,
+    "adecuacion_temas_emergentes": 2022,
+    "adecuacion_titulacion": null
+  }
+]

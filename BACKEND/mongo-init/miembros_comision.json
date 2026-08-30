@@ -1,0 +1,106 @@
+[
+  {
+    "_id": "6a19d02824af5d893eec6e68",
+    "No": null,
+    "Adscripción": "Facultad de Música",
+    "Nombre": "María Teresa Navarro Agraz",
+    "Correo": "direccion@fam.unam.mx",
+    "Teléfono": "Ext 85077"
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e64",
+    "No": 4,
+    "Adscripción": "Centro de Investigaciones de Diseño Industrial",
+    "Nombre": "Mtro. José Héctor López Aguado Aguilar",
+    "Correo": "hector.lopezaguado@cidi.unam.mx",
+    "Teléfono": "5556220835 y 36"
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e66",
+    "No": null,
+    "Adscripción": "Centro Universitario de Teatro",
+    "Nombre": "Mtro. David Martín Hevia Garibay",
+    "Correo": "xxx - Ya mandé correo para tener los datos",
+    "Teléfono": "5518274829"
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e6b",
+    "No": null,
+    "Adscripción": null,
+    "Nombre": "Dra. Claudia de la Garza Hernández",
+    "Correo": "5527555980",
+    "Teléfono": null
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e67",
+    "No": null,
+    "Adscripción": "Instituto de Investigaciones Estéticas",
+    "Nombre": "Dr. Daniel Enrique Montero Fayad",
+    "Correo": "danielmonterofayad@gmail.com",
+    "Teléfono": "Ext 85077"
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e63",
+    "No": 3,
+    "Adscripción": "Facultad de Arte y Diseño",
+    "Nombre": "Mtra. Raquel Eugenia García Cruz",
+    "Correo": "investigacion@fad.unam.mx",
+    "Teléfono": "5554894920, 21 y 22 Ext. 207"
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e6a",
+    "No": null,
+    "Adscripción": "Invitados CAAHyA",
+    "Nombre": "Dr. Pedro Ortiz Antoranz",
+    "Correo": "portiz@ctac.fad.unam.mx; langle@servidor.unam.mx",
+    "Teléfono": "5555085257"
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e6c",
+    "No": null,
+    "Adscripción": null,
+    "Nombre": "Dr. Pierre Valls",
+    "Correo": "5542224900",
+    "Teléfono": null
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e65",
+    "No": 5,
+    "Adscripción": "Escuela Nacional de Artes Cinematográficas",
+    "Nombre": "Lic. María de los Ángeles Castro Gurría",
+    "Correo": "direccion@enac.unam.mx; asistente.dir@enac.unam.mx",
+    "Teléfono": "556233801"
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e69",
+    "No": null,
+    "Adscripción": "ENES Morelia",
+    "Nombre": "Mtra. Roxana Cervantes Barajas",
+    "Correo": "rcervantes@enesmorelia.unam.mx",
+    "Teléfono": "6893500 Extensión 80589"
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e62",
+    "No": 2,
+    "Adscripción": null,
+    "Nombre": "José Rafael Mondragón Velázquez",
+    "Correo": "mondragon.rafael@gmail.com",
+    "Teléfono": "5525272237"
+  },
+  {
+    "_id": "6a19d02824af5d893eec6e61",
+    "No": 1,
+    "Adscripción": "Representante del CAAHyA",
+    "Nombre": "Mtra.. María Antonieta Rodríguez Rivera",
+    "Correo": "ced@enallt.unam.mx",
+    "Teléfono": "(52)55 5622-6666 ext. 41427"
+  },
+  {
+    "_id": "6a29e8349b767d0df1deefb1",
+    "adscripcion": "prueba",
+    "nombre": "prueba",
+    "createdAt": "2026-06-10T22:41:56.318Z",
+    "updatedAt": "2026-06-10T22:41:56.318Z",
+    "__v": 0
+  }
+]

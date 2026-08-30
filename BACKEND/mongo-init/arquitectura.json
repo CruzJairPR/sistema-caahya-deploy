@@ -1,0 +1,106 @@
+[
+  {
+    "_id": "6a23039a2ba99de2f89349cb",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "FES ARAGÓN",
+    "PERSONA": "Roberto Pliego Martínez",
+    "NOMBRAMIENTO": " Licenciatura en Arquitectura",
+    "CORREO ELECTRÓNICO": "arquitectura@aragon.unam.mx"
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349ce",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "FES ARAGÓN",
+    "PERSONA": "Víctor Manuel Jaime Tapia",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349cf",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "FES ARAGÓN",
+    "PERSONA": "Josué Shamed Zárate Espinoza",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349c4",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "Facultad de arquitectura",
+    "PERSONA": "Mtro. Raúl Cándido Nieto García",
+    "NOMBRAMIENTO": "Colegio Académico de la Licenciatura en Arquitectura",
+    "CORREO ELECTRÓNICO": "arquitectura@fa.unam.mx"
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349c7",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "Facultad de arquitectura",
+    "PERSONA": "Daniela Elisa Santiago Simbeck",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": "simbeckdaniela13@gmail.com"
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349c9",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "FES ARAGÓN",
+    "PERSONA": "PERSONA",
+    "NOMBRAMIENTO": "NOMBRAMIENTO ",
+    "CORREO ELECTRÓNICO": "CORREO ELECTRÓNICO"
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349c6",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "Facultad de arquitectura",
+    "PERSONA": "Arq. Efraín López Ortega",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera ",
+    "CORREO ELECTRÓNICO": "efrain.lopez@fa.unam.mx"
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349cd",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "FES ARAGÓN",
+    "PERSONA": "Arq. Néstor Lugo Zaleta",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera ",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349c3",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "Facultad de arquitectura",
+    "PERSONA": "Dra. Mónica Cejudo Collera",
+    "NOMBRAMIENTO": "Titular de la entidad",
+    "CORREO ELECTRÓNICO": "direccion@fa.unam.mx"
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349cc",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "FES ARAGÓN",
+    "PERSONA": "Arq. Ana María Cortés Carmona",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera ",
+    "CORREO ELECTRÓNICO": null
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349c8",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "Facultad de arquitectura",
+    "PERSONA": "Braulio Alexis Esquivel Velasco",
+    "NOMBRAMIENTO": "Representante del alumnado de la carrera",
+    "CORREO ELECTRÓNICO": "321300571@fa.unam.mx"
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349c5",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "Facultad de arquitectura",
+    "PERSONA": "Mtra. Karina Flores Flores",
+    "NOMBRAMIENTO": "Representante del profesorado de la carrera ",
+    "CORREO ELECTRÓNICO": "karina.flores@fa.unam.mx"
+  },
+  {
+    "_id": "6a23039a2ba99de2f89349ca",
+    "CARRERA": "FACULTAD DE ESTUDIOS SUPERIORES ACATLAN",
+    "FACU": "FES ARAGÓN",
+    "PERSONA": null,
+    "NOMBRAMIENTO": "Titular de la entidad",
+    "CORREO ELECTRÓNICO": null
+  }
+]

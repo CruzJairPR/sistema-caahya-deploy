@@ -1,0 +1,52 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: app_mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      - MONGO_INITDB_DATABASE=sistema-consultas
+
+  backend:
+    build: "./SISTEMA DE CONSULTAS BACKEND/microservicios-consultas"
+    container_name: app_backend
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=development
+      # Mongo local del contenedor, separado de tu Atlas de producción.
+      # No usa el .env real del backend para esta variable.
+      - MONGO_URI=mongodb://mongo:27017/sistema-consultas
+      - JWT_SECRET=UnaPalabraClaveSuperSecretaYMasiva2026!
+      - JWT_EXPIRE=24h
+    volumes:
+      - "./SISTEMA DE CONSULTAS BACKEND/microservicios-consultas:/app"
+      - /app/node_modules
+    command: npm run dev
+    depends_on:
+      - mongo
+
+  frontend:
+    build: "./SISTEMA DE CONSULTAS/sistema-consultas"
+    container_name: app_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      # URL interna para cuando Next.js hace peticiones desde el servidor (SSR)
+      - INTERNAL_API_URL=http://backend:5000
+      # URL para el navegador (Client-side)
+      - NEXT_PUBLIC_API_URL=http://localhost:5000
+    volumes:
+      - "./SISTEMA DE CONSULTAS/sistema-consultas:/app"
+      - /app/node_modules
+    command: npm run dev
+    depends_on:
+      - backend
+
+volumes:
+  mongo_data:
