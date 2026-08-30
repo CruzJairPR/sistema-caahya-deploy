@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   mongo:
     image: mongo:7
@@ -46,5 +48,4 @@ services:
       - backend
 
 volumes:
-  - mongo_data:/data/db
-      - ./BACKEND/mongo-init:/docker-entrypoint-initdb.d
+  mongo_data:
