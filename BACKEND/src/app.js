@@ -6,6 +6,7 @@ require('dotenv').config();
 
 const conectarDB = require('./config/db');
 const verificarToken = require('./middleware/verificarToken');
+const inicializarUsuariosFijos = require('./helpers/seedUsuarios'); 
 
 // Importación de Rutas
 const authRoutes = require('./routes/auth.routes');
@@ -59,10 +60,12 @@ const mediaRoutes = require('./routes/media.routes');
 //coordinadora
 const foliosRoutes = require("./routes/folios.routes");
 
-
 const app = express();
 
-conectarDB();
+// 1. Conectamos a la BD y ejecutamos el sembrado automático de forma limpia
+conectarDB().then(async () => {
+    await inicializarUsuariosFijos();
+});
 
 // CONFIGURACIÓN DE CORS
 const allowedOrigins = [
@@ -101,7 +104,7 @@ app.get('/health', (req, res) => {
 // Auth — pública, el login no puede requerir estar logeado
 app.use('/api/v1/auth', authRoutes);
 
-//  A PARTIR DE AQUÍ, TODO REQUIERE TOKEN VÁLIDO
+// A PARTIR DE AQUÍ, TODO REQUIERE TOKEN VÁLIDO
 app.use('/api/v1', verificarToken);
 
 // Registro de Rutas protegidas
@@ -153,10 +156,7 @@ app.use('/api/v1/historia', historiaRoutes);
 app.use('/api/v1/filosofia', filosofiaRoutes);
 app.use('/api/v1/media', mediaRoutes);
 //coordinadora
-app.use("/api/v1/folios", require("./routes/folios.routes"));
-
-
-
+app.use("/api/v1/folios", foliosRoutes);
 
 // Inicialización del Servidor
 const PORT = process.env.PORT || 5000;
