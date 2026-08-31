@@ -62,7 +62,7 @@ conectarDB().then(async () => {
     await inicializarUsuariosFijos();
 });
 
-// CONFIGURACIÓN DE CORS
+// CONFIGURACIÓN DE CORS ÚNICA Y CORRECTA
 const allowedOrigins = [
     'http://localhost:3000',
     'https://sistema-consultas-l4tln6fdv-cruzjairprs-projects.vercel.app',
@@ -76,7 +76,9 @@ app.use(cors({
             origin.includes('cruzjairprs-projects.vercel.app') ||
             origin.includes('.vercel.app');
 
-        if (allowedOrigins.indexOf(origin) !== -1 || isVercelProject) {
+        const isAnyLocalNetworkPort3000 = /^http:\/\/.+:3000$/.test(origin);
+
+        if (allowedOrigins.indexOf(origin) !== -1 || isVercelProject || isAnyLocalNetworkPort3000) {
             callback(null, true);
         } else {
             callback(new Error('No permitido por políticas de CORS (Seguridad)'));
@@ -152,5 +154,5 @@ app.use("/api/v1/folios", foliosRoutes);
 // Inicialización del Servidor
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-    console.log(` Servicio corriendo en el puerto ${PORT}`);
+    console.log(`Servicio corriendo en el puerto ${PORT}`);
 });

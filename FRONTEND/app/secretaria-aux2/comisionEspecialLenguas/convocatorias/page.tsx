@@ -207,7 +207,9 @@ export default function ConvocatoriasPage() {
                   label="Fecha del Archivo"
                   type="date"
                   fullWidth
-                  InputLabelProps={{ shrink: true }}
+                  slotProps={{
+                    inputLabel: { shrink: true },
+                  }}
                   value={fechaArchivo}
                   onChange={(e) => setFechaArchivo(e.target.value)}
                   disabled={subiendo}
