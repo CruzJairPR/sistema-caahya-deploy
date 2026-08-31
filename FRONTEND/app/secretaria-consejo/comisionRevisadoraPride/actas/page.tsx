@@ -217,7 +217,7 @@ export default function ActasPage() {
                   label="Fecha del Archivo (Opcional)"
                   type="date"
                   fullWidth
-                  slotProps={{ shrink: true }}
+                  slotProps={{ inputLabel: { shrink: true } }}
                   value={fechaArchivo || ""}
                   onChange={(e) => setFechaArchivo(e.target.value)}
                   disabled={subiendo}
