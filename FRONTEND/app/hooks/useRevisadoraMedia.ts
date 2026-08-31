@@ -2,8 +2,15 @@
 
 import { useState, useEffect, useCallback, ChangeEvent } from "react";
 
-// Cambiamos la base a una ruta relativa para que el ApiInterceptor la intercepte dinámicamente
-const API_PREFIX = "api/v1";
+const getApiBase = () => {
+  if (typeof window !== "undefined") {
+    const protocol = window.location.protocol;
+    const hostname = window.location.hostname;
+    return `${protocol}//${hostname}:5000/api/v1`;
+  }
+  return "http://localhost:5000/api/v1";
+};
+
 const MAX_FILE_SIZE_MB = 20;
 
 const getHeaders = () => {
@@ -48,8 +55,8 @@ export function useRevisadoraMedia(endpoint: string) {
     if (!endpoint) return;
     setCargando(true);
     try {
-      // Usamos ruta relativa para que el interceptor la procese
-      const respuesta = await fetch(`/${API_PREFIX}/${endpoint}`, {
+      // Usamos la función dinámica para apuntar directo al puerto 5000 de la IP actual
+      const respuesta = await fetch(`${getApiBase()}/${endpoint}`, {
         method: "GET",
         headers: getHeaders(),
       });
@@ -134,7 +141,7 @@ export function useRevisadoraMedia(endpoint: string) {
         }
 
         const respuesta = await fetch(
-          `/${API_PREFIX}/${basePath}/${editandoId}`,
+          `${getApiBase()}/${basePath}/${editandoId}`,
           {
             method: "PUT",
             headers: getHeaders(),
@@ -172,7 +179,7 @@ export function useRevisadoraMedia(endpoint: string) {
         archivoBase64 = await archivoABase64(archivo);
         nombreArchivo = archivo.name;
 
-        const respuesta = await fetch(`/${API_PREFIX}/${endpoint}`, {
+        const respuesta = await fetch(`${getApiBase()}/${endpoint}`, {
           method: "POST",
           headers: getHeaders(),
           body: JSON.stringify({
@@ -221,11 +228,11 @@ export function useRevisadoraMedia(endpoint: string) {
       if (!id) return;
 
       try {
-        const respuesta = await fetch(`/${API_PREFIX}/${basePath}/${id}`, {
+        const respuesta = await fetch(`${getApiBase()}/${basePath}/${id}`, {
           method: "DELETE",
           headers: getHeaders(),
         });
-        const data = await respuesta.json().catch(() => ({}));
+        const data = await respuesta.json().catch(() => JSON.parse("{}"));
 
         if (!respuesta.ok || data.success === false) {
           throw new Error(
