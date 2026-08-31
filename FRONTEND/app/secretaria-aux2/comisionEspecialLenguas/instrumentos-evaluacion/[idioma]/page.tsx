@@ -109,7 +109,9 @@ export default function InstrumentosEvaluacionPage() {
         maxWidth="lg"
         sx={{ py: { xs: 2, sm: 4 }, px: { xs: 2, sm: 3 } }}
       >
-        <BannerInstitucional titulo={` ${idiomaFormateado}`} />
+        <BannerInstitucional
+          titulo={` Instrumentos de Evaluación - ${idiomaFormateado}`}
+        />
 
         <Box sx={{ borderBottom: 1, borderColor: "divider", mt: 3, mb: 3 }}>
           <Tabs

@@ -8,16 +8,13 @@ const MAPA_NOMBRES_CARRERAS = {
     historia: "HISTORIA",
     pedagogia: "PEDAGOGÍA"
 };
+
 exports.obtenerPorCarrera = async (req, res) => {
     try {
         const { carrera } = req.params;
         const carreraSlug = carrera ? carrera.toLowerCase().trim() : "";
 
-        console.log("========================================");
-        console.log("🟢 [DEBUG] Parámetro recibido en URL:", carrera);
-
         const registros = await CarreraItem.find({});
-        console.log(`📦 [DEBUG] Total de registros en 'carreras_miembros': ${registros.length}`);
 
         const normalizar = (str) =>
             (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
@@ -41,8 +38,6 @@ exports.obtenerPorCarrera = async (req, res) => {
             return matchDirecto || (esDesarrolloGestion && bdEsDesarrolloGestion);
         });
 
-        console.log(`🎯 [DEBUG] Registros encontrados tras el filtrado: ${datosFiltrados.length}`);
-
         const datosMapeados = datosFiltrados.map(item => {
             const obj = item.toObject();
             const valorSede = obj.sede || obj.entidad || "FACULTAD";
@@ -53,10 +48,8 @@ exports.obtenerPorCarrera = async (req, res) => {
             };
         });
 
-        console.log("========================================");
         res.json(datosMapeados);
     } catch (error) {
-        console.error("❌ [ERROR en obtenerPorCarrera]:", error);
         res.status(500).json({ mensaje: "Error al obtener los miembros", error: error.message });
     }
 };
@@ -80,7 +73,6 @@ exports.crearParaCarrera = async (req, res) => {
         const guardado = await nuevoDato.save();
         res.status(201).json(guardado);
     } catch (error) {
-        console.error("❌ [ERROR al crear]:", error);
         res.status(500).json({ mensaje: "Error al crear el miembro", error: error.message });
     }
 };
