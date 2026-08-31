@@ -1,4 +1,14 @@
-const API_URL = "http://localhost:5000/api/v1/folios";
+// Función para obtener la URL base de forma dinámica según el navegador del usuario
+const getApiBase = () => {
+  if (typeof window !== "undefined") {
+    const hostname = window.location.hostname;
+    return `http://${hostname}:5000/api/v1`;
+  }
+  return "http://localhost:5000/api/v1";
+};
+
+const API_BASE = getApiBase();
+const API_URL = `${API_BASE}/folios`;
 
 interface CrearFolioPayload {
   titulo: string;
@@ -72,6 +82,7 @@ export async function crearFolio(payload: CrearFolioPayload) {
 
   return data.data || data;
 }
+
 export async function actualizarFolio(
   id: string,
   payload: Partial<CrearFolioPayload>,
@@ -92,6 +103,7 @@ export async function actualizarFolio(
 
   return data.data || data;
 }
+
 /**
  * Elimina un folio del servidor mediante su ID único de MongoDB
  */
