@@ -2,7 +2,8 @@
 
 import { useState, useEffect, useCallback, ChangeEvent } from "react";
 
-const API_BASE = "http://localhost:5000/api/v1";
+// Cambiamos la base a una ruta relativa para que el ApiInterceptor la intercepte dinámicamente
+const API_PREFIX = "api/v1";
 const MAX_FILE_SIZE_MB = 20;
 
 const getHeaders = () => {
@@ -47,7 +48,8 @@ export function useRevisadoraMedia(endpoint: string) {
     if (!endpoint) return;
     setCargando(true);
     try {
-      const respuesta = await fetch(`${API_BASE}/${endpoint}`, {
+      // Usamos ruta relativa para que el interceptor la procese
+      const respuesta = await fetch(`/${API_PREFIX}/${endpoint}`, {
         method: "GET",
         headers: getHeaders(),
       });
@@ -131,11 +133,14 @@ export function useRevisadoraMedia(endpoint: string) {
           payload.nombreArchivo = nombreArchivo;
         }
 
-        const respuesta = await fetch(`${API_BASE}/${basePath}/${editandoId}`, {
-          method: "PUT",
-          headers: getHeaders(),
-          body: JSON.stringify(payload),
-        });
+        const respuesta = await fetch(
+          `/${API_PREFIX}/${basePath}/${editandoId}`,
+          {
+            method: "PUT",
+            headers: getHeaders(),
+            body: JSON.stringify(payload),
+          },
+        );
         const data = await respuesta.json().catch(() => ({}));
 
         if (!respuesta.ok || data.success === false) {
@@ -167,7 +172,7 @@ export function useRevisadoraMedia(endpoint: string) {
         archivoBase64 = await archivoABase64(archivo);
         nombreArchivo = archivo.name;
 
-        const respuesta = await fetch(`${API_BASE}/${endpoint}`, {
+        const respuesta = await fetch(`/${API_PREFIX}/${endpoint}`, {
           method: "POST",
           headers: getHeaders(),
           body: JSON.stringify({
@@ -216,7 +221,7 @@ export function useRevisadoraMedia(endpoint: string) {
       if (!id) return;
 
       try {
-        const respuesta = await fetch(`${API_BASE}/${basePath}/${id}`, {
+        const respuesta = await fetch(`/${API_PREFIX}/${basePath}/${id}`, {
           method: "DELETE",
           headers: getHeaders(),
         });
