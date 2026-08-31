@@ -5,7 +5,7 @@ const {
     crearRegistro,
     actualizarRegistro,
     eliminarRegistro
-} = require('../controllers/revisoraIdiomas.controller'); // Ajusta el nombre de tu controlador si difiere
+} = require('../controllers/revisoraIdiomas.controller');
 
 // Endpoints GET y POST (Listar y Crear)
 router.get('/:idioma/:tipo', obtenerRegistros);

@@ -6,7 +6,7 @@ const {
     crearMaterial,
     actualizarMaterial,
     eliminarMaterial
-} = require('../controllers/materiales.controller');
+} = require('../controllers/secretaria-aux2/materiales.controller');
 
 // Rutas con parámetro :tipo para listar y crear
 router.get('/:tipo', obtenerMateriales);

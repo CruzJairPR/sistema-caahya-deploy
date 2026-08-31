@@ -44,6 +44,10 @@ export default function RecursosRevisionPrimerPeriodoPage() {
     setTitulo,
     descripcion,
     setDescripcion,
+    comentarios,
+    setComentarios,
+    fechaArchivo,
+    setFechaArchivo,
     archivo,
     archivosListado,
     cargando,
@@ -70,7 +74,7 @@ export default function RecursosRevisionPrimerPeriodoPage() {
     setModalAbierto(true);
   };
 
-  const handleGuardar = async (e: React.FormEvent) => {
+  const handleGuardar = async (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (esSoloConsulta) return;
     await handleSubmit();
@@ -175,6 +179,15 @@ export default function RecursosRevisionPrimerPeriodoPage() {
           <Box component="form" onSubmit={handleGuardar}>
             <DialogContent dividers sx={{ p: 3 }}>
               <Stack spacing={3}>
+                <Typography
+                  variant="body2"
+                  color="text.secondary"
+                  sx={{ mb: -1 }}
+                >
+                  Los campos marcados con{" "}
+                  <span style={{ color: "red" }}>*</span> son obligatorios.
+                </Typography>
+
                 <TextField
                   label="Título"
                   fullWidth
@@ -184,13 +197,30 @@ export default function RecursosRevisionPrimerPeriodoPage() {
                   disabled={subiendo}
                 />
                 <TextField
-                  label="Descripción"
+                  label="Descripción (Opcional)"
                   fullWidth
                   multiline
                   rows={3}
                   value={descripcion}
                   onChange={(e) => setDescripcion(e.target.value)}
-                  required
+                  disabled={subiendo}
+                />
+                <TextField
+                  label="Comentarios (Opcional)"
+                  fullWidth
+                  multiline
+                  rows={2}
+                  value={comentarios || ""}
+                  onChange={(e) => setComentarios(e.target.value)}
+                  disabled={subiendo}
+                />
+                <TextField
+                  label="Fecha del Archivo (Opcional)"
+                  type="date"
+                  fullWidth
+                  slotProps={{ shrink: true }}
+                  value={fechaArchivo || ""}
+                  onChange={(e) => setFechaArchivo(e.target.value)}
                   disabled={subiendo}
                 />
                 <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
@@ -200,7 +230,7 @@ export default function RecursosRevisionPrimerPeriodoPage() {
                     startIcon={<CloudUploadIcon />}
                     sx={{ color: "#ee9105", borderColor: "#ee9105" }}
                   >
-                    Seleccionar Archivo
+                    Seleccionar Archivo *
                     <input
                       type="file"
                       accept=".pdf,.doc,.docx,.xls,.xlsx,.png,.jpg"
@@ -229,12 +259,7 @@ export default function RecursosRevisionPrimerPeriodoPage() {
                 type="submit"
                 variant="contained"
                 color="success"
-                disabled={
-                  !titulo ||
-                  !descripcion ||
-                  (!editandoId && !archivo) ||
-                  subiendo
-                }
+                disabled={!titulo || (!editandoId && !archivo) || subiendo}
               >
                 {subiendo ? (
                   <CircularProgress size={22} color="inherit" />

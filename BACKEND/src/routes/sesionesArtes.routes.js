@@ -5,7 +5,7 @@ const {
     crearSesionArtes,
     actualizarSesionArtes,
     eliminarSesionArtes,
-} = require("../controllers/sesionesArtes.controller");
+} = require("../controllers/secretaria-aux2/sesionesArtes.controller");
 
 router.get("/", obtenerSesionesArtes);
 router.post("/", crearSesionArtes);

@@ -1,4 +1,3 @@
-// routes/planEstudioSuayedRoutes.js
 const express = require("express");
 const router = express.Router();
 const {
@@ -6,7 +5,7 @@ const {
     createPlanSuayed,
     updatePlanSuayed,
     deletePlanSuayed
-} = require("../controllers/planEstudioSuayed.controller");
+} = require("../controllers/secretaria-consejo/planEstudioSuayed.controller");
 
 router.route("/")
     .get(getPlanesSuayed)

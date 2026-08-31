@@ -6,7 +6,7 @@ const {
     createPlan,
     updatePlan,
     deletePlan
-} = require("../controllers/planEstudio.controller");
+} = require("../controllers/secretaria-consejo/planEstudio.controller");
 
 router.route("/")
     .get(getPlanes)

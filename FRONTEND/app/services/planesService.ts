@@ -22,12 +22,6 @@ export const planesService = {
   getAll: async (): Promise<PlanEstudio[]> => {
     const url = getEndpoint();
 
-    logger.log(
-      `%c API PLANES DE ESTUDIO: %c${url}`,
-      "color: #ee9105; font-weight: bold; font-size: 12px;",
-      "color: #00b0ff; font-style: italic;",
-    );
-
     const res = await apiFetch("/api/v1/planEstudios?limit=500");
     const resultado = await handleResponse<
       { success?: boolean; data?: PlanEstudio[] } | PlanEstudio[]

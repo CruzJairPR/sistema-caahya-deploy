@@ -19,12 +19,9 @@ const columnasMiembros: ColumnConfig<Miembro>[] = [
   { key: "entidad", label: "Entidad" },
   { key: "telefono1", label: "Teléfono 1" },
   { key: "telefono2", label: "Teléfono 2" },
-  { key: "telefono3", label: "Teléfono 3" },
   { key: "correo1", label: "Correo 1" },
   { key: "correo2", label: "Correo 2" },
-  { key: "correo3", label: "Correo 3" },
-  { key: "correo4", label: "Correo 4" },
-  { key: "comentarios", label: "Comentarios" },
+  { key: "comentarios", label: "Observaciones" },
 ];
 
 export default function MiembrosDirectorioPage() {

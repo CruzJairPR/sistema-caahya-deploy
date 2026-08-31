@@ -93,7 +93,7 @@ export default function RevisionInstrumentosPage() {
     setModalAbierto(true);
   };
 
-  const handleGuardar = async (e: React.FormEvent) => {
+  const handleGuardar = async (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (esSoloConsulta) return;
     await handleSubmit();
@@ -220,16 +220,14 @@ export default function RevisionInstrumentosPage() {
                   disabled={subiendo}
                 />
                 <TextField
-                  label="Descripción / Observaciones"
+                  label="Descripción"
                   fullWidth
                   multiline
                   rows={3}
                   value={descripcion}
                   onChange={(e) => setDescripcion(e.target.value)}
-                  required
                   disabled={subiendo}
                 />
-                {/* Campo de Comentarios añadido */}
                 <TextField
                   label="Comentarios"
                   fullWidth
@@ -239,7 +237,6 @@ export default function RevisionInstrumentosPage() {
                   onChange={(e) => setComentarios(e.target.value)}
                   disabled={subiendo}
                 />
-                {/* Campo de Fecha del Archivo añadido */}
                 <TextField
                   label="Fecha del Archivo"
                   type="date"
@@ -247,7 +244,6 @@ export default function RevisionInstrumentosPage() {
                   slotProps={{ inputLabel: { shrink: true } }}
                   value={fechaArchivo}
                   onChange={(e) => setFechaArchivo(e.target.value)}
-                  required
                   disabled={subiendo}
                 />
                 <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
@@ -286,13 +282,7 @@ export default function RevisionInstrumentosPage() {
                 type="submit"
                 variant="contained"
                 color="success"
-                disabled={
-                  !titulo ||
-                  !descripcion ||
-                  !fechaArchivo ||
-                  (!editandoId && !archivo) ||
-                  subiendo
-                }
+                disabled={!titulo || (!editandoId && !archivo) || subiendo}
               >
                 {subiendo ? (
                   <CircularProgress size={22} color="inherit" />

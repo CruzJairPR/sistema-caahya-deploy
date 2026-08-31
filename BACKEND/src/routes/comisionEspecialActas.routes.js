@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { obtener, crear, actualizar, eliminar } = require("../controllers/comisionEspecialActas.controller");
+const { obtener, crear, actualizar, eliminar } = require("../controllers/secretaria-consejo/comisionEspecialActas.controller");
 
 router.get("/", obtener);
 router.post("/", crear);

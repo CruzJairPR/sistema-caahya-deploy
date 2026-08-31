@@ -8,7 +8,6 @@ import {
   Snackbar,
 } from "@mui/material";
 import Navbar from "../../components/Navbar";
-
 import AdminTable from "../../components/AdminTable";
 import { ColumnConfig } from "../../components/GenericTable";
 import { MiembroComisionArtes } from "../../types/comisionArtes";
@@ -20,8 +19,8 @@ const columnasMiembrosComisionArtes: ColumnConfig<MiembroComisionArtes>[] = [
   { key: "nombre", label: "Nombre Completo" },
   { key: "correo", label: "Correo Electrónico" },
   { key: "correo2", label: "Correo secundario" },
-  { key: "telefono", label: "Telefono" },
-  { key: "telefono2", label: " Telefono secundario" },
+  { key: "telefono", label: "Teléfono" },
+  { key: "telefono2", label: "Teléfono secundario" },
   { key: "comentarios", label: "Comentarios" },
 ];
 
@@ -70,7 +69,7 @@ export default function MiembrosComisionArtesPage() {
             addTitle="Registrar Nuevo Integrante"
             editTitle="Modificar Datos del Integrante"
             onAdd={handleAdd}
-            onEdit={(updatedRow) => handleEdit(updatedRow)}
+            onEdit={handleEdit}
             onDelete={handleDelete}
           />
         )}

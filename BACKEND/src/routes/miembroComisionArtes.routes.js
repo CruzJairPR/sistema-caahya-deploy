@@ -5,7 +5,7 @@ const {
     crearMiembroComisionArtes,
     actualizarMiembroComisionArtes,
     eliminarMiembroComisionArtes
-} = require('../controllers/miembroComisionArtes.controller');
+} = require('../controllers/secretaria-aux2/miembroComisionArtes.controller');
 
 router.route('/')
     .get(obtenerMiembroComisionArtes)

@@ -5,7 +5,7 @@ const {
     crearRecurso,
     actualizarRecurso,
     eliminarRecurso,
-} = require("../controllers/recursoRevisionPrimerPeriodo.controller");
+} = require("../controllers/secretaria-consejo/recursoRevisionPrimerPeriodo.controller");
 
 router.get("/", obtenerRecursos);
 router.post("/", crearRecurso);

@@ -65,15 +65,7 @@ function ComisionEspecialPrideContent() {
 
   // Sincronizamos las alertas evaluando la urgencia real con tu función centralizada
   useEffect(() => {
-    console.log(
-      "📥 [Página Especial PRIDE] Datos recibidos del backend:",
-      datos,
-    );
-
     if (!datos || datos.length === 0) {
-      console.log(
-        "⚠️ [Página Especial PRIDE] No hay datos o el arreglo está vacío.",
-      );
       return;
     }
 
@@ -85,9 +77,6 @@ function ComisionEspecialPrideContent() {
 
       // Usamos tu función existente para saber exactamente la urgencia
       const urgenciaCalculada = calcularUrgenciaPorFechas(fechaTermino);
-      console.log(
-        `🔎 [Item ${index}] Nombre: "${item.nombre}" | Fecha: "${fechaTermino}" | Urgencia: "${urgenciaCalculada}"`,
-      );
 
       // Si la urgencia NO es normal (es decir, vencido, critico o advertencia), generamos la alerta
       if (urgenciaCalculada !== "normal") {
@@ -115,12 +104,9 @@ function ComisionEspecialPrideContent() {
       }
     });
 
-    console.log(
-      "🚨 [Página Especial PRIDE] Alertas listas para registrar:",
-      nuevasAlertas,
-    );
     registrarAlertas("Comisión Especial PRIDE", nuevasAlertas);
   }, [datos, registrarAlertas]);
+
   return (
     <Box sx={{ minHeight: "100vh", bgcolor: "#f5f5f5" }}>
       <Navbar rol={rolUsuario} />

@@ -91,13 +91,15 @@ const formatearFechaVisual = (val: unknown) => {
   return strVal;
 };
 
+// 💡 1. Se añade "select" y la propiedad opcional "options" a la interfaz
 export interface ColumnConfig<T = unknown> {
   key: keyof T | string;
   label: string;
   isChip?: boolean;
   editable?: boolean;
   hidden?: boolean;
-  type?: "text" | "date";
+  type?: "text" | "date" | "select";
+  options?: string[];
   required?: boolean;
 }
 
@@ -243,7 +245,6 @@ export default function GenericTable<T extends Record<string, unknown>>({
     setPage(0);
   };
 
-  // 📥 FUNCIÓN PARA EXPORTAR A EXCEL LOS DATOS FILTRADOS
   const handleExportExcel = () => {
     if (!filteredData || filteredData.length === 0) return;
 
@@ -371,6 +372,8 @@ export default function GenericTable<T extends Record<string, unknown>>({
   ) => {
     return columns.map((col) => {
       const keyStr = String(col.key);
+
+      // Manejo específico previo (ej. urgencia)
       if (keyStr === "urgencia") {
         return (
           <FormControl key={keyStr} fullWidth size="small">
@@ -400,6 +403,40 @@ export default function GenericTable<T extends Record<string, unknown>>({
               >
                 Amarillo (Advertencia / 6 meses)
               </MenuItem>
+            </Select>
+          </FormControl>
+        );
+      }
+
+      // 💡 2. NUEVO: Renderizado seguro para campos tipo "select" configurados mediante columnas
+      if (col.type === "select") {
+        return (
+          <FormControl
+            key={keyStr}
+            fullWidth
+            size="small"
+            required={col.required}
+          >
+            <InputLabel>{col.label}</InputLabel>
+            <Select
+              value={formData[keyStr] || ""}
+              label={col.label}
+              disabled={col.editable === false}
+              onChange={(e) =>
+                setFormData((prev) => ({
+                  ...prev,
+                  [keyStr]: e.target.value,
+                }))
+              }
+            >
+              <MenuItem value="">
+                <em>Seleccione una opción</em>
+              </MenuItem>
+              {col.options?.map((opt) => (
+                <MenuItem key={opt} value={opt}>
+                  {opt}
+                </MenuItem>
+              ))}
             </Select>
           </FormControl>
         );
@@ -505,7 +542,6 @@ export default function GenericTable<T extends Record<string, unknown>>({
         </Box>
 
         <Box sx={{ display: "flex", gap: 1, flexShrink: 0 }}>
-          {/* 📊 BOTÓN DE EXPORTAR A EXCEL */}
           <Button
             variant="outlined"
             color="primary"
@@ -517,7 +553,6 @@ export default function GenericTable<T extends Record<string, unknown>>({
             Exportar Excel
           </Button>
 
-          {/* ➕ BOTÓN DE AGREGAR */}
           {!readOnly && (
             <Button
               variant="contained"

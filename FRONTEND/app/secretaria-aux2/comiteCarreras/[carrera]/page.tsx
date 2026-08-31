@@ -106,7 +106,9 @@ export default function CarreraDinamicaPage({ params }: PageProps) {
   // Hook activo según la pestaña seleccionada
   const activeHook = pestanaActual === "sesiones" ? hookSesiones : hookPlan;
 
-  const handleGuardarMedia = async (e: React.FormEvent) => {
+  const handleGuardarMedia = async (
+    e: React.SyntheticEvent<HTMLFormElement>,
+  ) => {
     e.preventDefault();
     if (esSoloConsulta) return;
     await activeHook.handleSubmit();
@@ -345,7 +347,6 @@ export default function CarreraDinamicaPage({ params }: PageProps) {
                   rows={3}
                   value={activeHook.descripcion}
                   onChange={(e) => activeHook.setDescripcion(e.target.value)}
-                  required
                   disabled={activeHook.subiendo}
                 />
                 <TextField
@@ -364,7 +365,6 @@ export default function CarreraDinamicaPage({ params }: PageProps) {
                   slotProps={{ inputLabel: { shrink: true } }}
                   value={activeHook.fechaArchivo || ""}
                   onChange={(e) => activeHook.setFechaArchivo(e.target.value)}
-                  required
                   disabled={activeHook.subiendo}
                 />
                 <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
@@ -402,8 +402,6 @@ export default function CarreraDinamicaPage({ params }: PageProps) {
                 color="success"
                 disabled={
                   !activeHook.titulo ||
-                  !activeHook.descripcion ||
-                  !activeHook.fechaArchivo ||
                   (!activeHook.editandoId && !activeHook.archivo) ||
                   activeHook.subiendo
                 }

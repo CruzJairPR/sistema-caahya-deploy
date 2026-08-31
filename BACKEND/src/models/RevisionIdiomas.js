@@ -19,7 +19,6 @@ const revisionIdiomaSchema = new mongoose.Schema({
     },
     descripcion: {
         type: String,
-        required: true,
         trim: true
     },
     comentarios: {
@@ -28,12 +27,10 @@ const revisionIdiomaSchema = new mongoose.Schema({
         trim: true
     },
     fechaArchivo: {
-        type: String, // O Date, dependiendo de cómo prefieras guardarlo (String "YYYY-MM-DD" es ideal para el input type="date")
-        required: true
+        type: String,
     },
     nombreArchivo: {
         type: String,
-        required: true
     },
     archivoBase64: {
         type: String,

@@ -3,18 +3,17 @@ const mongoose = require('mongoose');
 const mediaCarreraSchema = new mongoose.Schema({
     carreraId: {
         type: String,
-        required: true,
         index: true,
         trim: true
     },
     tipoArchivo: {
         type: String,
-        required: true, // Aquí guardaremos 'sesiones' o 'plan-trabajo'
         enum: ['sesiones', 'plan-trabajo'],
         trim: true
     },
     titulo: {
         type: String,
+        required: true, 
         trim: true
     },
     descripcion: {
@@ -31,10 +30,12 @@ const mediaCarreraSchema = new mongoose.Schema({
     },
     nombreArchivo: {
         type: String,
+        required: true, 
         trim: true
     },
     archivoBase64: {
-        type: String, // O la ruta/URL si decides guardarlo en servidor o nube
+        type: String,
+        required: true, 
     }
 }, {
     timestamps: true

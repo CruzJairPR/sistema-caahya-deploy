@@ -57,7 +57,7 @@ export default function FormatosWordPage() {
     cancelarEdicion,
   } = useMedia("word");
 
-  const handleGuardarFormato = async (e: React.FormEvent) => {
+  const handleGuardarFormato = async (e:  React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (esSoloConsulta) return;
     await handleSubmit();

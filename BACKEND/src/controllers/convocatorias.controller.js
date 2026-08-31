@@ -1,4 +1,4 @@
-const CoelConvocatoria = require('../models/CoelConvocatorias');
+const CoelConvocatoria = require('../models/secretaria-aux2/CoelConvocatorias');
 
 const obtenerConvocatorias = async (req, res) => {
     try {
@@ -11,11 +11,14 @@ const obtenerConvocatorias = async (req, res) => {
 
 const crearConvocatoria = async (req, res) => {
     try {
-        const { titulo, descripcion, nombreArchivo, archivoBase64 } = req.body;
+        // 1. Extraemos comentarios y fechaArchivo del body
+        const { titulo, descripcion, comentarios, fechaArchivo, nombreArchivo, archivoBase64 } = req.body;
 
         const nueva = new CoelConvocatoria({
             titulo,
             descripcion,
+            comentarios,    // 👈 Agregado aquí
+            fechaArchivo,   // 👈 Agregado aquí
             nombreArchivo,
             archivoBase64,
         });
@@ -30,9 +33,17 @@ const crearConvocatoria = async (req, res) => {
 const actualizarConvocatoria = async (req, res) => {
     try {
         const { id } = req.params;
-        const { titulo, descripcion, nombreArchivo, archivoBase64 } = req.body;
+        // 2. Extraemos comentarios y fechaArchivo en la actualización
+        const { titulo, descripcion, comentarios, fechaArchivo, nombreArchivo, archivoBase64 } = req.body;
 
-        const updateData = { titulo, descripcion };
+        // 3. Los incluimos en el objeto que se va a actualizar
+        const updateData = {
+            titulo,
+            descripcion,
+            comentarios,
+            fechaArchivo
+        };
+
         if (archivoBase64 && nombreArchivo) {
             updateData.archivoBase64 = archivoBase64;
             updateData.nombreArchivo = nombreArchivo;

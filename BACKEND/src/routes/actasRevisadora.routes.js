@@ -5,7 +5,7 @@ const {
     crearActaRevisadora,
     actualizarActaRevisadora,
     eliminarActaRevisadora,
-} = require("../controllers/actasRevisadora.controller");
+} = require("../controllers/secretaria-consejo/actasRevisadora.controller");
 
 router.get("/", obtenerActasRevisadora);
 router.post("/", crearActaRevisadora);

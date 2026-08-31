@@ -1,8 +1,7 @@
 const ComisionPride = require('../models/ComisionPride');
 
 // GET /api/pride
-// Soporta filtros por query: ?entidad=&tipoDeMiembro=&periodo=&miembro=
-// Soporta paginación: ?page=1&limit=20
+
 const getAll = async (req, res) => {
     try {
         const { entidad, tipoDeMiembro, periodo, miembro, page = 1, limit = 20 } = req.query;

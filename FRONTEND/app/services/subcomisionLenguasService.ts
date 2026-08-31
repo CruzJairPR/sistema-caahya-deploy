@@ -85,7 +85,6 @@ export const subcomisionLenguasService = {
   async update(updatedRow: SubcomisionMiembro): Promise<void> {
     if (!base_api) throw new Error("API URL no configurada.");
 
-    // Extracción segura del ID en caso de que venga envuelto en un objeto
     let idLimpio = updatedRow._id as any;
     if (typeof idLimpio === "object" && idLimpio !== null) {
       idLimpio = idLimpio.$oid || idLimpio.toString();
@@ -96,7 +95,6 @@ export const subcomisionLenguasService = {
     }
 
     const urlFinal = `${API_URL}/${idLimpio}`;
-    console.log("➡️ URL PUT ejecutada:", urlFinal);
 
     const respuesta = await fetch(urlFinal, {
       method: "PUT",
@@ -120,7 +118,6 @@ export const subcomisionLenguasService = {
     }
 
     const urlFinal = `${API_URL}/${idLimpio}`;
-    console.log("➡️ URL DELETE ejecutada:", urlFinal);
 
     const respuesta = await fetch(urlFinal, {
       method: "DELETE",

@@ -1,6 +1,5 @@
 const RevisionIdioma = require('../models/RevisionIdiomas');
 
-// 1. Obtener registros filtrados por idioma y tipo de examen
 const obtenerRegistros = async (req, res) => {
     try {
         const { idioma, tipo } = req.params;
@@ -17,7 +16,6 @@ const obtenerRegistros = async (req, res) => {
     }
 };
 
-// 2. Crear un nuevo registro / subir archivo
 const crearRegistro = async (req, res) => {
     try {
         const { idioma, tipo } = req.params;
@@ -27,9 +25,9 @@ const crearRegistro = async (req, res) => {
             idioma,
             tipoExamen: tipo,
             titulo,
-            descripcion,
+            descripcion: descripcion || "",
             comentarios: comentarios || "",
-            fechaArchivo,
+            fechaArchivo: fechaArchivo || "",
             nombreArchivo,
             archivoBase64,
             fechaSubida: new Date()
@@ -48,7 +46,6 @@ const crearRegistro = async (req, res) => {
     }
 };
 
-// 3. Actualizar un registro existente por ID
 const actualizarRegistro = async (req, res) => {
     try {
         const { id } = req.params;
@@ -56,16 +53,20 @@ const actualizarRegistro = async (req, res) => {
 
         const datosActualizados = {
             titulo,
-            descripcion,
+            descripcion: descripcion || "",
             comentarios: comentarios || "",
-            fechaArchivo,
-            ...(archivoBase64 && nombreArchivo && { archivoBase64, nombreArchivo })
+            fechaArchivo: fechaArchivo || ""
         };
+
+        if (archivoBase64 && archivoBase64.trim() !== "" && nombreArchivo && nombreArchivo.trim() !== "") {
+            datosActualizados.archivoBase64 = archivoBase64;
+            datosActualizados.nombreArchivo = nombreArchivo;
+        }
 
         const registroEditado = await RevisionIdioma.findByIdAndUpdate(
             id,
             datosActualizados,
-            { new: true }
+            { new: true, runValidators: true }
         );
 
         if (!registroEditado) {
@@ -83,7 +84,6 @@ const actualizarRegistro = async (req, res) => {
     }
 };
 
-// 4. Eliminar un registro por ID
 const eliminarRegistro = async (req, res) => {
     try {
         const { id } = req.params;

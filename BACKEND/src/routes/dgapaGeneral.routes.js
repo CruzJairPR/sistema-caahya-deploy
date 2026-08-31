@@ -5,7 +5,7 @@ const {
     crearComision,
     actualizarDgapaGeneral,
     eliminarDgapaGeneral
-} = require('../controllers/dgapa.controller');
+} = require('../controllers/secretaria-aux1/dgapa.controller');
 
 router.get('/:pestana', obtenerDgapaGeneralPorPestana);
 

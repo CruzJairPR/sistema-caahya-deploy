@@ -29,6 +29,10 @@ export const comisionArtesService = {
       rol: item.rol ?? "",
       nombre: item.nombre ?? "",
       correo: item.correo ?? "",
+      correo2: item.correo2 ?? "",
+      telefono: item.telefono ?? "",
+      telefono2: item.telefono2 ?? "",
+      comentarios: item.comentarios ?? "",
     }));
   },
 

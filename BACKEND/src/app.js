@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const conectarDB = require('./config/db');
 const verificarToken = require('./middleware/verificarToken');
-const inicializarUsuariosFijos = require('./helpers/seedUsuarios'); 
+const inicializarUsuariosFijos = require('./helpers/seedUsuarios');
 
 // Importación de Rutas
 const authRoutes = require('./routes/auth.routes');
@@ -49,14 +49,9 @@ const planEstudioRoutes = require('./routes/planEstudio.routes');
 const planEstudioSuayedRoutes = require('./routes/planEstudioSuayed.routes');
 const prideRoutes = require('./routes/pride.routes');
 const miembroComisionArtesRoutes = require('./routes/miembroComisionArtes.routes');
-const arquitecturaRoutes = require('./routes/arquitectura.routes');
 const desarrolloGestionRoutes = require('./routes/desarrolloGestion.routes');
-const disenoRoutes = require('./routes/diseno.routes');
-const instrumentoEvaluacionRoutes = require("./routes/instrumentoEvaluacion.routes");
-const pedagogiaRoutes = require('./routes/pedagogia.routes');
-const historiaRoutes = require('./routes/historia.routes');
-const filosofiaRoutes = require('./routes/filosofia.routes');
 const mediaRoutes = require('./routes/media.routes');
+const instrumentosEvaluacionRoutes = require('./routes/instrumentosEvaluacion.routes');
 //coordinadora
 const foliosRoutes = require("./routes/folios.routes");
 
@@ -135,8 +130,10 @@ app.use("/api/v1/comision-difusion/sesiones", sesionesDifusionRoutes);
 app.use('/api/v1/carreras', carrerasRoutes);
 app.use('/api/v1/difusion/plan-trabajo', crearRutasPlanTrabajo('difusion-extension'));
 app.use('/api/v1/artes/plan-trabajo', crearRutasPlanTrabajo('comision-especial-artes'));
-app.use('/api/v1/plan-de-trabajo', crearRutasPlanTrabajo('plan-trabajo-coel'));
+// Se separó el endpoint para evitar colisión con planTrabajoRoutes
+app.use('/api/v1/plan-trabajo-coel', crearRutasPlanTrabajo('plan-trabajo-coel'));
 app.use('/api/v1/revision-instrumentos', revisionIdiomasRoutes);
+app.use('/api/v1/instrumentos-evaluacion', instrumentosEvaluacionRoutes);
 app.use('/api/v1/subcomisionlenguas', coelIdiomasRoutes);
 app.use('/api/v1/sesiones', coelSesionesRoutes);
 app.use('/api/v1/plan-de-trabajo', planTrabajoRoutes);
@@ -147,13 +144,7 @@ app.use('/api/v1/difusion', difusionRoutes);
 app.use('/api/v1/coel', coelRoutes);
 app.use('/api/v1/pride', prideRoutes);
 app.use('/api/v1/miembroComisionArtes', miembroComisionArtesRoutes);
-app.use('/api/v1/arquitectura', arquitecturaRoutes);
 app.use('/api/v1/desarrolloGestion', desarrolloGestionRoutes);
-app.use('/api/v1/diseno', disenoRoutes);
-app.use('/api/v1/instrumentos-evaluacion', instrumentoEvaluacionRoutes);
-app.use('/api/v1/pedagogia', pedagogiaRoutes);
-app.use('/api/v1/historia', historiaRoutes);
-app.use('/api/v1/filosofia', filosofiaRoutes);
 app.use('/api/v1/media', mediaRoutes);
 //coordinadora
 app.use("/api/v1/folios", foliosRoutes);

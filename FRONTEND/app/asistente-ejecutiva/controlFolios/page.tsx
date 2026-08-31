@@ -57,7 +57,9 @@ export default function FoliosPage() {
     cancelarEdicion,
   } = useMedia({ formatoPorDefecto: "folio", usarFoliosService: true });
 
-  const handleGuardarFolio = async (e: React.FormEvent) => {
+  const handleGuardarFolio = async (
+    e: React.SyntheticEvent<HTMLFormElement>,
+  ) => {
     e.preventDefault();
     if (esSoloConsulta) return;
     await handleSubmit();

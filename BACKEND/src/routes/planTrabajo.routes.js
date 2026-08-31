@@ -1,5 +1,5 @@
 const express = require('express');
-const controladorComision = require('../controllers/planTrabajo.controller');
+const controladorComision = require('../controllers/secretaria-aux2/planTrabajo.controller');
 
 module.exports = (nombreComision) => {
     const router = express.Router();

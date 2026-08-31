@@ -26,10 +26,8 @@ export function useCarreras(carreraSlug: string) {
     if (!apiEndpoint) return;
     try {
       setCargando(true);
-      // Forzamos el tipado de la respuesta como any o unknown para evitar el error de TypeScript
       const response: any = await comisionCarrerasService.getAll(apiEndpoint);
 
-      // Manejamos si la respuesta es directamente el arreglo o viene envuelta en un objeto { data: [...] }
       const items = Array.isArray(response) ? response : response?.data || [];
       setDatos(items);
       setError(null);
@@ -66,9 +64,6 @@ export function useCarreras(carreraSlug: string) {
       return;
     }
     try {
-      // Dependiendo de cómo tengas tu service.update, asegúrate de que mande el ID.
-      // Lo ideal es que comisionCarrerasService.update reciba (endpoint, updatedRow)
-      // y concatene internamente el ID: `${endpoint}/${updatedRow._id}`
       await comisionCarrerasService.update(apiEndpoint, updatedRow);
       setNotificacion({
         tipo: "success",
@@ -87,13 +82,6 @@ export function useCarreras(carreraSlug: string) {
       return;
     }
 
-    if (
-      typeof window !== "undefined" &&
-      !window.confirm("¿Estás seguro de que deseas eliminar este miembro?")
-    ) {
-      return;
-    }
-
     try {
       await comisionCarrerasService.delete(apiEndpoint, rowToDelete._id);
       setNotificacion({
@@ -106,7 +94,6 @@ export function useCarreras(carreraSlug: string) {
       setNotificacion({ tipo: "error", mensaje: errorMsg });
     }
   };
-
   return {
     datos,
     cargando,

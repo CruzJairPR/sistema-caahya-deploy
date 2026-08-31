@@ -5,7 +5,7 @@ const {
     crearCoelIdioma,
     actualizarCoelIdioma,
     eliminarCoelIdioma
-} = require('../controllers/coelIdiomas.controller');
+} = require('../controllers/secretaria-aux2/coelIdiomas.controller');
 
 // Endpoints dinámicos que manejan cualquier idioma y tipo de examen
 router.get('/:idioma/:tipo', obtenerCoelIdiomas);

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/planTrabajo.controller')('comision-especial-artes');
+const controller = require('../controllers/secretaria-aux2/planTrabajo.controller')('comision-especial-artes');
 
 router.get('/', controller.obtenerPlanes);
 router.post('/', controller.crearPlan);

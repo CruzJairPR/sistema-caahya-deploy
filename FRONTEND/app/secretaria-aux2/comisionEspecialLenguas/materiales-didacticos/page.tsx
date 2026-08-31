@@ -79,7 +79,7 @@ export default function MaterialesDidacticosPage() {
     setModalAbierto(true);
   };
 
-  const handleGuardar = async (e: React.FormEvent) => {
+  const handleGuardar = async (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (esSoloConsulta) return;
     await handleSubmit();

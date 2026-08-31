@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const miembroController = require('../controllers/miembro.controller');
+const miembroController = require('../controllers/secretaria-consejo/miembro.controller');
 
 router.get('/', miembroController.obtenerMiembros);
 router.post('/', miembroController.crearMiembro);

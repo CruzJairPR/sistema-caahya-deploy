@@ -40,8 +40,26 @@ export const calcularUrgenciaPorFechas = (
   return "normal";
 };
 
+const listaIdiomas = [
+  "Inglés",
+  "Francés",
+  "Alemán",
+  "Italiano",
+  "Portugués",
+  "Japonés",
+  "Chino",
+  "Náhuatl",
+  "Purépecha",
+];
+
 const columnasGenerales: ColumnConfig<any>[] = [
-  { key: "idioma", label: "IDIOMA", required: true },
+  {
+    key: "idioma",
+    label: "IDIOMA",
+    type: "select",
+    options: listaIdiomas,
+    required: true,
+  },
   { key: "integrante", label: "INTEGRANTES", required: true },
   { key: "cargo", label: "CARGO" },
   { key: "adscripcion", label: "ADSCRIPCIÓN" },
@@ -55,7 +73,13 @@ const columnasGenerales: ColumnConfig<any>[] = [
 ];
 
 const columnasCoordinadores: ColumnConfig<any>[] = [
-  { key: "idioma", label: "IDIOMA", required: true },
+  {
+    key: "idioma",
+    label: "IDIOMA",
+    type: "select",
+    options: listaIdiomas,
+    required: true,
+  },
   { key: "integrante", label: "INTEGRANTE", required: true },
   { key: "coordinacion.periodo", label: "PERÍODO COORD." },
   { key: "coordinacion.fecha_inicio", label: "INICIO COORD.", type: "date" },
@@ -93,7 +117,7 @@ export default function ComisionEspecialLenguasPage() {
       ...nuevaFila,
       coordinacion: {
         ...(nuevaFila.coordinacion || {}),
-        es_coordinador: true, 
+        es_coordinador: true,
       },
     };
     await handleAdd(payload);
@@ -119,88 +143,88 @@ export default function ComisionEspecialLenguasPage() {
 
   return (
     <Box sx={{ minHeight: "100vh", bgcolor: "#f5f5f5" }}>
-        <Navbar />
-        <Container
-          maxWidth="xl"
-          sx={{
-            py: { xs: 2, sm: 4 },
-            px: { xs: 2, sm: 3 },
-          }}
-        >
-          <BannerInstitucional titulo="Comisión Especial de Lenguas" />
+      <Navbar />
+      <Container
+        maxWidth="xl"
+        sx={{
+          py: { xs: 2, sm: 4 },
+          px: { xs: 2, sm: 3 },
+        }}
+      >
+        <BannerInstitucional titulo="Comisión Especial de Lenguas" />
 
-          <Box sx={{ borderBottom: 1, borderColor: "divider", mb: 3 }}>
-            <Tabs
-              value={tabIndex}
-              onChange={(e, nuevoValor) => setTabIndex(nuevoValor)}
-              textColor="primary"
-              indicatorColor="primary"
-            >
-              <Tab label="Todos los Miembros" />
-              <Tab label={`Coordinadores (${datosCoordinadores.length})`} />
-            </Tabs>
-          </Box>
-
-          {error && (
-            <Alert severity="error" sx={{ mb: 2 }}>
-              {error}
-            </Alert>
-          )}
-
-          {cargando ? (
-            <Box sx={{ display: "flex", justifyContent: "center", mt: 8 }}>
-              <CircularProgress sx={{ color: "#ee9105" }} />
-            </Box>
-          ) : (
-            <>
-              {tabIndex === 0 && (
-                <AdminTable<any>
-                  data={datosProcesados}
-                  columns={columnasGenerales}
-                  rowKey="_id"
-                  displayField="integrante"
-                  title="Ficha del Miembro"
-                  addTitle="Agregar Nuevo Miembro"
-                  editTitle="Editar Miembro"
-                  onAdd={handleAdd}
-                  onEdit={handleCustomEdit}
-                  onDelete={handleDelete}
-                />
-              )}
-
-              {tabIndex === 1 && (
-                <AdminTable<any>
-                  data={datosCoordinadores}
-                  columns={columnasCoordinadores}
-                  rowKey="_id"
-                  displayField="integrante"
-                  title="Coordinación"
-                  addTitle="Agregar Coordinador"
-                  editTitle="Editar Coordinador"
-                  onAdd={handleAddCoordinador}
-                  onEdit={handleCustomEdit}
-                  onDelete={handleDelete}
-                />
-              )}
-            </>
-          )}
-        </Container>
-
-        <Snackbar
-          open={notificacion !== null}
-          autoHideDuration={4000}
-          onClose={cerrarNotificacion}
-          anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
-        >
-          <Alert
-            onClose={cerrarNotificacion}
-            severity={notificacion?.tipo ?? "info"}
-            variant="filled"
-            sx={{ width: "100%", borderRadius: 2 }}
+        <Box sx={{ borderBottom: 1, borderColor: "divider", mb: 3 }}>
+          <Tabs
+            value={tabIndex}
+            onChange={(e, nuevoValor) => setTabIndex(nuevoValor)}
+            textColor="primary"
+            indicatorColor="primary"
           >
-            {notificacion?.mensaje}
+            <Tab label="Todos los Miembros" />
+            <Tab label={`Coordinadores (${datosCoordinadores.length})`} />
+          </Tabs>
+        </Box>
+
+        {error && (
+          <Alert severity="error" sx={{ mb: 2 }}>
+            {error}
           </Alert>
-        </Snackbar>
+        )}
+
+        {cargando ? (
+          <Box sx={{ display: "flex", justifyContent: "center", mt: 8 }}>
+            <CircularProgress sx={{ color: "#ee9105" }} />
+          </Box>
+        ) : (
+          <>
+            {tabIndex === 0 && (
+              <AdminTable<any>
+                data={datosProcesados}
+                columns={columnasGenerales}
+                rowKey="_id"
+                displayField="integrante"
+                title="Ficha del Miembro"
+                addTitle="Agregar Nuevo Miembro"
+                editTitle="Editar Miembro"
+                onAdd={handleAdd}
+                onEdit={handleCustomEdit}
+                onDelete={handleDelete}
+              />
+            )}
+
+            {tabIndex === 1 && (
+              <AdminTable<any>
+                data={datosCoordinadores}
+                columns={columnasCoordinadores}
+                rowKey="_id"
+                displayField="integrante"
+                title="Coordinación"
+                addTitle="Agregar Coordinador"
+                editTitle="Editar Coordinador"
+                onAdd={handleAddCoordinador}
+                onEdit={handleCustomEdit}
+                onDelete={handleDelete}
+              />
+            )}
+          </>
+        )}
+      </Container>
+
+      <Snackbar
+        open={notificacion !== null}
+        autoHideDuration={4000}
+        onClose={cerrarNotificacion}
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+      >
+        <Alert
+          onClose={cerrarNotificacion}
+          severity={notificacion?.tipo ?? "info"}
+          variant="filled"
+          sx={{ width: "100%", borderRadius: 2 }}
+        >
+          {notificacion?.mensaje}
+        </Alert>
+      </Snackbar>
     </Box>
   );
 }

@@ -1,4 +1,4 @@
-const Directorio = require('../models/Directorio');
+const Directorio = require('../models/secretaria-aux1/Directorio');
 
 // Obtener todos
 const obtenerDirectorios = async (req, res) => {

@@ -79,14 +79,6 @@ export function useComisionArtes() {
       return;
     }
 
-    if (
-      !confirm(
-        `¿Estás seguro de que deseas eliminar a ${rowToDelete.nombre || "este integrante"} del sistema SUAyED?`,
-      )
-    ) {
-      return;
-    }
-
     try {
       await comisionArtesService.delete(rowToDelete._id);
       setNotificacion({

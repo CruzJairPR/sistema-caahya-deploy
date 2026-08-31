@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const carrerasController = require('../controllers/carrera.controller');
+const carrerasController = require('../controllers/secretaria-aux2/carrera.controller');
 const mediaController = require('../controllers/mediaCarrera.controller');
 
 // --- 1. Rutas de Sesiones ---

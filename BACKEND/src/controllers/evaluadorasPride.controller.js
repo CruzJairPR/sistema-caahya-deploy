@@ -1,4 +1,4 @@
-const EvaluadoraPride = require("../models/EvaluadorasPride");
+const EvaluadoraPride = require("../models/secretaria-aux1/EvaluadorasPride");
 
 // Obtener todos los registros (con límite opcional)
 const obtenerEvaluadoras = async (req, res) => {

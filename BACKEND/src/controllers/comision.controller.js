@@ -1,4 +1,4 @@
-const ComisionDictaminadora = require("../models/ComisionDictaminadora");
+const ComisionDictaminadora = require("../models/secretaria-aux1/ComisionDictaminadora");
 
 exports.obtenerComisiones = async (req, res) => {
     try {

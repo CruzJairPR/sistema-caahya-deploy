@@ -131,7 +131,6 @@ export function useRevisadoraMedia(endpoint: string) {
           payload.nombreArchivo = nombreArchivo;
         }
 
-        // Apunta a: /api/v1/carreras/:carrera/sesiones/:id o plan-trabajo
         const respuesta = await fetch(`${API_BASE}/${basePath}/${editandoId}`, {
           method: "PUT",
           headers: getHeaders(),
@@ -168,7 +167,6 @@ export function useRevisadoraMedia(endpoint: string) {
         archivoBase64 = await archivoABase64(archivo);
         nombreArchivo = archivo.name;
 
-        // Apunta directamente a: /api/v1/carreras/:carrera/sesiones o plan-trabajo
         const respuesta = await fetch(`${API_BASE}/${endpoint}`, {
           method: "POST",
           headers: getHeaders(),
@@ -218,7 +216,6 @@ export function useRevisadoraMedia(endpoint: string) {
       if (!id) return;
 
       try {
-        // Apunta a: /api/v1/carreras/:carrera/sesiones/:id o plan-trabajo/:id
         const respuesta = await fetch(`${API_BASE}/${basePath}/${id}`, {
           method: "DELETE",
           headers: getHeaders(),

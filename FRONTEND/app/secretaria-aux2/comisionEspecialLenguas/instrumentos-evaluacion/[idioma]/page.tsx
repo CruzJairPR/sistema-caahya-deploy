@@ -30,7 +30,7 @@ import MediaTable from "../../../../components/MediaTable";
 import BannerInstitucional from "../../../../components/BannerInstitucional";
 import { useRevisadoraMedia } from "../../../../hooks/useRevisadoraMedia";
 
-export default function IdiomaPage() {
+export default function InstrumentosEvaluacionPage() {
   const params = useParams();
   const idiomaRaw = (params?.idioma as string) || "";
 
@@ -49,10 +49,9 @@ export default function IdiomaPage() {
     setRolUsuario(roleSaved);
   }, []);
 
-  // Asistente Ejecutiva es solo consulta: no puede subir, editar ni eliminar instrumentos de idiomas
   const esSoloConsulta = rolUsuario === "ASISTENTE_EJECUTIVA";
 
-  const endpointDinamico = `subcomisionlenguas/${idiomaRaw}/${
+  const endpointDinamico = `instrumentos-evaluacion/${idiomaRaw}/${
     tipoExamenTab === "dominio" ? "examen-de-dominio" : "examen-de-metodologia"
   }`;
 
@@ -91,7 +90,7 @@ export default function IdiomaPage() {
     setModalAbierto(true);
   };
 
-  const handleGuardar = async (e: React.FormEvent) => {
+  const handleGuardar = async (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (esSoloConsulta) return;
     await handleSubmit();
@@ -179,7 +178,6 @@ export default function IdiomaPage() {
         </Paper>
       </Container>
 
-      {/* MODAL CREAR / EDITAR */}
       {!esSoloConsulta && (
         <Dialog
           open={modalAbierto}
@@ -220,7 +218,6 @@ export default function IdiomaPage() {
                   rows={3}
                   value={descripcion}
                   onChange={(e) => setDescripcion(e.target.value)}
-                  required
                   disabled={subiendo}
                 />
                 <TextField
@@ -239,7 +236,6 @@ export default function IdiomaPage() {
                   slotProps={{ inputLabel: { shrink: true } }}
                   value={fechaArchivo}
                   onChange={(e) => setFechaArchivo(e.target.value)}
-                  required
                   disabled={subiendo}
                 />
                 <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
@@ -278,13 +274,7 @@ export default function IdiomaPage() {
                 type="submit"
                 variant="contained"
                 color="success"
-                disabled={
-                  !titulo ||
-                  !descripcion ||
-                  !fechaArchivo ||
-                  (!editandoId && !archivo) ||
-                  subiendo
-                }
+                disabled={!titulo || (!editandoId && !archivo) || subiendo}
               >
                 {subiendo ? (
                   <CircularProgress size={22} color="inherit" />

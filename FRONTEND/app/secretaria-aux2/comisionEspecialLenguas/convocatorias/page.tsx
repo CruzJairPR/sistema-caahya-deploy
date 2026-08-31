@@ -36,10 +36,8 @@ export default function ConvocatoriasPage() {
     setRolUsuario(roleSaved);
   }, []);
 
-  // Asistente Ejecutiva es solo consulta: no puede subir, editar ni eliminar convocatorias
   const esSoloConsulta = rolUsuario === "ASISTENTE_EJECUTIVA";
 
-  // Endpoint directo para convocatorias
   const endpointDinamico = "convocatorias";
 
   const {
@@ -47,6 +45,10 @@ export default function ConvocatoriasPage() {
     setTitulo,
     descripcion,
     setDescripcion,
+    comentarios,
+    setComentarios,
+    fechaArchivo,
+    setFechaArchivo,
     archivo,
     archivosListado,
     cargando,
@@ -73,9 +75,10 @@ export default function ConvocatoriasPage() {
     setModalAbierto(true);
   };
 
-  const handleGuardar = async (e: React.FormEvent) => {
+  const handleGuardar = async (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (esSoloConsulta) return;
+
     await handleSubmit();
     setModalAbierto(false);
   };
@@ -189,7 +192,24 @@ export default function ConvocatoriasPage() {
                   rows={3}
                   value={descripcion}
                   onChange={(e) => setDescripcion(e.target.value)}
-                  required
+                  disabled={subiendo}
+                />
+                <TextField
+                  label="Comentarios"
+                  fullWidth
+                  multiline
+                  rows={2}
+                  value={comentarios}
+                  onChange={(e) => setComentarios(e.target.value)}
+                  disabled={subiendo}
+                />
+                <TextField
+                  label="Fecha del Archivo"
+                  type="date"
+                  fullWidth
+                  InputLabelProps={{ shrink: true }}
+                  value={fechaArchivo}
+                  onChange={(e) => setFechaArchivo(e.target.value)}
                   disabled={subiendo}
                 />
                 <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
@@ -228,12 +248,7 @@ export default function ConvocatoriasPage() {
                 type="submit"
                 variant="contained"
                 color="success"
-                disabled={
-                  !titulo ||
-                  !descripcion ||
-                  (!editandoId && !archivo) ||
-                  subiendo
-                }
+                disabled={!titulo || (!editandoId && !archivo) || subiendo}
               >
                 {subiendo ? (
                   <CircularProgress size={22} color="inherit" />

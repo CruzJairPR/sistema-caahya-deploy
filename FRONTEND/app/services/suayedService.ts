@@ -19,11 +19,6 @@ async function handleResponse<T>(res: Response): Promise<T> {
 export const suayedService = {
   getAll: async (): Promise<PlanEstudioSuayed[]> => {
     const url = getEndpoint();
-    logger.log(
-      `%c🌐 API SUAyED: %c${url}`,
-      "color: #ee9105; font-weight: bold; font-size: 12px;",
-      "color: #00b0ff; font-style: italic;",
-    );
 
     const res = await fetch(`${url}?limit=500`);
     const resultado = await handleResponse<
