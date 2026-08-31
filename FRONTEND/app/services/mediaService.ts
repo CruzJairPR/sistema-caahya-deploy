@@ -1,4 +1,14 @@
-const API_URL = "http://localhost:5000/api/v1/media";
+// Función para obtener la URL base de forma dinámica según el navegador del usuario
+const getApiBase = () => {
+  if (typeof window !== "undefined") {
+    const hostname = window.location.hostname;
+    return `http://${hostname}:5000/api/v1`;
+  }
+  return "http://localhost:5000/api/v1";
+};
+
+const API_BASE = getApiBase();
+const API_URL = `${API_BASE}/media`;
 
 interface CrearMediaPayload {
   titulo: string;
@@ -41,7 +51,6 @@ export async function crearMedia(payload: CrearMediaPayload) {
 
   if (!respuesta.ok) {
     const errorData = await respuesta.json().catch(() => ({}));
-    // Si el backend mandó un mensaje de validación específico, lo lanzamos al hook
     throw new Error(
       errorData.mensaje || "Error al intentar subir el archivo al servidor.",
     );
@@ -49,6 +58,10 @@ export async function crearMedia(payload: CrearMediaPayload) {
 
   return await respuesta.json();
 }
+
+/**
+ * Actualiza un archivo multimedia existente por su ID
+ */
 export async function actualizarMedia(
   id: string,
   payload: Partial<CrearMediaPayload>,
@@ -70,6 +83,7 @@ export async function actualizarMedia(
 
   return await respuesta.json();
 }
+
 /**
  * Elimina un archivo multimedia del servidor mediante su ID único de MongoDB
  */

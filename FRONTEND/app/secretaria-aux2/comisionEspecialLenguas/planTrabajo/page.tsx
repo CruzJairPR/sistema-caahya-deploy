@@ -14,7 +14,7 @@ export default function PlanTrabajoPage() {
   return (
     <SesionesTemplate
       tituloPagina="COEL - Plan de Trabajo y Avances"
-      endpointConvocatorias="plan-de-trabajo"
+      endpointConvocatorias="plan-trabajo-coel"
       labelUnico="Plan de Trabajo"
       rol={rolUsuario}
     />
