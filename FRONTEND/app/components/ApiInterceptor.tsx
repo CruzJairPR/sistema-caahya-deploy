@@ -11,19 +11,19 @@ export default function ApiInterceptor({
     if (typeof window !== "undefined") {
       const originalFetch = window.fetch;
 
-      // Detectamos dinámicamente el host actual (localhost o la IP 192.168.X.X) pero apuntando al puerto 5000 del backend
-      const currentHost = window.location.hostname;
-      const dynamicApiUrl =
-        process.env.NEXT_PUBLIC_API_URL || `http://${currentHost}:5000`;
-
       window.fetch = async (
         input: RequestInfo | URL,
         init: RequestInit = {},
       ) => {
         let url = input.toString();
 
-        if (url.startsWith("/api/")) {
-          url = `${dynamicApiUrl}${url}`;
+        // Si la petición empieza con /api/ o api/, la redirigimos obligatoriamente al puerto 5000 de la IP/Host actual
+        if (url.startsWith("/api/") || url.startsWith("api/")) {
+          const currentProtocol = window.location.protocol; // http: o https:
+          const currentHost = window.location.hostname; // localhost o 192.168.1.100
+          const cleanPath = url.startsWith("/") ? url : `/${url}`;
+          
+          url = `${currentProtocol}//${currentHost}:5000${cleanPath}`;
         }
 
         const token = localStorage.getItem("token");
