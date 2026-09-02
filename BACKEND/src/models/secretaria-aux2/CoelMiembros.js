@@ -3,30 +3,13 @@ const mongoose = require('mongoose');
 const coelMiembrosSchema = new mongoose.Schema({
     idioma: {
         type: String,
+        required: [true, 'El idioma es obligatorio'], // Agregado por seguridad ya que estaba como required en la tabla
         trim: true,
-        enum: {
-            values: ['Inglés', 'Francés', 'Alemán', 'Italiano', 'Portugués', 'Japonés', 'Chino', 'Náhuatl', 'Purépecha'],
-            message: 'El idioma no es válido'
-        },
         set: (v) => {
             if (!v) return undefined;
-            const limpio = v.trim().toLowerCase();
-            const capitalizado = limpio.charAt(0).toUpperCase() + limpio.slice(1);
-
-            const mapaIdiomas = {
-                'ingles': 'Inglés',
-                'frances': 'Francés',
-                'aleman': 'Alemán',
-                'italiano': 'Italiano',
-                'portugues': 'Portugués',
-                'japones': 'Japonés',
-                'chino': 'Chino',
-                'nahuatl': 'Náhuatl',
-                'purepecha': 'Purépecha'
-            };
-
-            const sinAcento = limpio.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-            return mapaIdiomas[sinAcento] || capitalizado;
+            // Limpia espacios y convierte la primera letra en mayúscula automáticamente
+            const limpio = v.trim();
+            return limpio.charAt(0).toUpperCase() + limpio.slice(1);
         }
     },
     integrante: {

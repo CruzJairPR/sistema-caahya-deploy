@@ -133,7 +133,12 @@ exports.actualizar = async (req, res) => {
         }
 
         const updateData = {};
-        if (idioma !== undefined) updateData.idioma = idioma ? idioma.trim() : undefined;
+
+        // Manejo robusto y limpio para el idioma de texto libre
+        if (idioma !== undefined) {
+            updateData.idioma = idioma && idioma.trim() ? idioma.trim() : undefined;
+        }
+
         if (integrante !== undefined) updateData.integrante = integrante ? integrante.trim() : undefined;
         if (cargo !== undefined) updateData.cargo = cargo ? cargo.trim() : undefined;
         if (adscripcion !== undefined) updateData.adscripcion = adscripcion ? adscripcion.trim() : undefined;

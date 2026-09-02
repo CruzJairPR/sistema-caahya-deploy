@@ -32,6 +32,29 @@ import PostAddIcon from "@mui/icons-material/PostAdd";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 import CloseIcon from "@mui/icons-material/Close";
 
+export type NivelUrgencia = "vencido" | "critico" | "advertencia" | "normal";
+
+export const calcularUrgenciaPorFechas = (
+  fechaTerminoStr?: string | Date,
+): NivelUrgencia => {
+  if (!fechaTerminoStr) return "normal";
+
+  const hoy = new Date();
+  const termino = new Date(fechaTerminoStr);
+
+  if (isNaN(termino.getTime())) return "normal";
+
+  const diffTime = termino.getTime() - hoy.getTime();
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  const diffMonths = diffDays / 30;
+
+  if (diffDays < 0) return "vencido";
+  if (diffMonths <= 3) return "critico";
+  if (diffMonths <= 6) return "advertencia";
+
+  return "normal";
+};
+
 const columnasMiembros: ColumnConfig<any>[] = [
   { key: "carrera", label: "CARRERA" },
   { key: "sede", label: "SEDE" },
@@ -128,6 +151,17 @@ export default function CarreraDinamicaPage({ params }: PageProps) {
   const nombreVisual =
     NOMBRES_CARRERAS[carrera] || (carrera ? carrera.toUpperCase() : "");
 
+  // Procesamos los datos de miembros para inyectarles la urgencia calculada mediante fechaTermino
+  const datosMiembrosProcesados = (datos || []).map((item: any) => {
+    const fTermino = item.fechaTermino;
+    return {
+      ...item,
+      _id: typeof item._id === "object" ? item._id.toString() : item._id,
+      persona: item.persona || "—",
+      urgencia: calcularUrgenciaPorFechas(fTermino),
+    };
+  });
+
   return (
     <Box
       sx={{
@@ -181,7 +215,7 @@ export default function CarreraDinamicaPage({ params }: PageProps) {
               }}
             >
               <AdminTable
-                data={datos}
+                data={datosMiembrosProcesados}
                 columns={columnasMiembros}
                 rowKey="_id"
                 displayField="persona"

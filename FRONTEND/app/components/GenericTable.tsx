@@ -91,7 +91,6 @@ const formatearFechaVisual = (val: unknown) => {
   return strVal;
 };
 
-// 💡 1. Se añade "select" y la propiedad opcional "options" a la interfaz
 export interface ColumnConfig<T = unknown> {
   key: keyof T | string;
   label: string;

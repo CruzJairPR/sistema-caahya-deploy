@@ -16,6 +16,10 @@ import BannerInstitucional from "../../components/BannerInstitucional";
 
 import { ColumnConfig } from "../../components/GenericTable";
 import { useSubcomisionLenguas } from "../../hooks/useSubcomisionLenguas";
+import {
+  useAlertaLenguas,
+  useAlertaLenguasCoordinadores,
+} from "../../hooks/useAlertasLenguas";
 
 export type NivelUrgencia = "vencido" | "critico" | "advertencia" | "normal";
 
@@ -40,24 +44,10 @@ export const calcularUrgenciaPorFechas = (
   return "normal";
 };
 
-const listaIdiomas = [
-  "Inglés",
-  "Francés",
-  "Alemán",
-  "Italiano",
-  "Portugués",
-  "Japonés",
-  "Chino",
-  "Náhuatl",
-  "Purépecha",
-];
-
 const columnasGenerales: ColumnConfig<any>[] = [
   {
     key: "idioma",
     label: "IDIOMA",
-    type: "select",
-    options: listaIdiomas,
     required: true,
   },
   { key: "integrante", label: "INTEGRANTES", required: true },
@@ -76,8 +66,6 @@ const columnasCoordinadores: ColumnConfig<any>[] = [
   {
     key: "idioma",
     label: "IDIOMA",
-    type: "select",
-    options: listaIdiomas,
     required: true,
   },
   { key: "integrante", label: "INTEGRANTE", required: true },
@@ -99,6 +87,10 @@ export default function ComisionEspecialLenguasPage() {
     handleEdit,
     handleDelete,
   } = useSubcomisionLenguas();
+
+  // 2. Activar los hooks de alerta de la campanita con el rol requerido
+  useAlertaLenguas("SECRETARIA_AUXILIAR_2");
+  useAlertaLenguasCoordinadores("SECRETARIA_AUXILIAR_2");
 
   // LIMPIEZA DE ID PARA EVITAR EL 404 AL EDITAR
   const handleCustomEdit = async (filaEditada: any) => {
